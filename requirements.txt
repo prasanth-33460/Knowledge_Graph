@@ -1,7 +1,14 @@
 spacy
 networkx
 rdflib
-pdfplumber
+pdfplumber@latest
 pytesseract
 beautifulsoup4
 streamlit
+sklearn
+nltk
+pandas
+requests
+pdfminer.six@20231228
+python-docx
+transformers
