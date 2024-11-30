@@ -1,5 +1,4 @@
 from docx import Document
-
 class DocxParser:
     def parse(self, file_path):
         doc = Document(file_path)

@@ -1,21 +1,13 @@
 import unittest
-from data_extraction.document_processing import DocumentProcessor
+from data_extraction.document_processing import DocumentProcessing
 
-class TestDocumentProcessor(unittest.TestCase):
+class TestDocumentProcessing(unittest.TestCase):
+    def setUp(self):
+        self.processor = DocumentProcessing()
 
-    def test_pdf_extraction(self):
-        processor = DocumentProcessor('sample.pdf')
-        text = processor.extract_text()
-        self.assertTrue(len(text) > 0, "Text extraction from PDF failed.")
-    def test_docx_extraction(self):
-        processor = DocumentProcessor('sample.docx')
-        text = processor.extract_text()
-        self.assertTrue(len(text) > 0, "Text extraction from DOCX failed.")
-
-    def test_txt_extraction(self):
-        processor = DocumentProcessor('sample.txt')
-        text = processor.extract_text()
-        self.assertTrue(len(text) > 0, "Text extraction from TXT failed.")
-
-if __name__ == '__main__':
-    unittest.main()
+    def test_process_document(self):
+        document = "John works at Acme Corp."
+        processed_data = self.processor.process_document(document)
+        self.assertIsInstance(processed_data, dict)
+        self.assertIn("entities", processed_data)
+        self.assertIn("relationships", processed_data)

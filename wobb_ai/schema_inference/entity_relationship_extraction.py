@@ -1,35 +1,28 @@
-import spacy
-from typing import List, Tuple, Dict
+import logging
+from typing import List, Dict
+logger = logging.getLogger(__name__)
 
-class EntityRelationshipExtractor:
+class EntityRelationshipExtraction:
     def __init__(self):
-        self.nlp = spacy.load("en_core_web_sm")
+        pass
 
-    def extract(self, text: str) -> Dict[str, List]:
-        doc = self.nlp(text)
-
+    def extract_entities(self, document: str) -> List[Dict]:
         entities = []
-        relationships = []
-        
-        for ent in doc.ents:
-            entities.append({"entity": ent.text, "type": ent.label_})
-        for token in doc:
-            if token.dep_ in {"nsubj", "dobj"} and token.head.pos_ == "VERB":
-                subject = token.text
-                predicate = token.head.text
-                object_ = [child.text for child in token.head.children if child.dep_ == "dobj"]
-                if object_:
-                    relationships.append({
-                        "source": subject,
-                        "relation": predicate,
-                        "target": object_[0]
-                    })
-        return {"entities": entities, "relationships": relationships}
+        for word in document.split():
+            if word[0].isupper():  
+                entities.append({"entity": word, "type": "UNKNOWN"})
+        logger.debug(f"Extracted entities: {entities}")
+        return entities
 
-    def refine_extraction(self, entities: List[Dict], relationships: List[Dict]) -> Dict[str, List]:
-        unique_entities = {e["entity"]: e for e in entities}.values()
-        unique_relationships = {tuple(r.items()): r for r in relationships}.values()
-        return {
-            "entities": list(unique_entities),
-            "relationships": list(unique_relationships)
-        }
+    def extract_relationships(self, document: str) -> List[Dict]:
+        relationships = []
+        words = document.split()
+        for i in range(len(words) - 1):
+            if words[i][0].isupper() and words[i + 1][0].isupper():
+                relationships.append({
+                    "source": words[i],
+                    "target": words[i + 1],
+                    "relation": "related_to"
+                })
+        logger.debug(f"Extracted relationships: {relationships}")
+        return relationships

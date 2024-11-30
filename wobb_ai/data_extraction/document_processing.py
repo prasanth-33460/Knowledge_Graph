@@ -1,6 +1,11 @@
 import os
 from data_extraction.text_extraction import TextExtractor
 from config import Config
+from data_extraction.parsers.docx_parser import DocxParser
+from data_extraction.parsers.pdf_parser import PDFParser
+from data_extraction.parsers.json_parser import JSONParser
+from data_extraction.parsers.image_parser import ImageParser
+from data_extraction.parsers.csv_parser import CSVParser
 
 class DocumentProcessor:
     def __init__(self):
@@ -9,9 +14,7 @@ class DocumentProcessor:
     def process(self, file_path):
         if not os.path.exists(file_path):
             raise FileNotFoundError(f"File not found: {file_path}")
-
         file_extension = file_path.split(".")[-1].lower()
         if file_extension not in Config.SUPPORTED_FORMATS:
             raise ValueError(f"Unsupported file format: {file_extension}")
-
         return self.text_extractor.extract(file_path)

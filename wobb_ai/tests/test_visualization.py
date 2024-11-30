@@ -1,15 +1,11 @@
 import unittest
-from graph_population.visualization import Visualization
+from graph_population.visualization import GraphVisualization
 
 class TestVisualization(unittest.TestCase):
     def setUp(self):
-        self.visualizer = Visualization()
+        self.visualizer = GraphVisualization()
 
-    def test_render_graph(self):
-        nodes = ["Node1", "Node2"]
-        edges = [("Node1", "Node2")]
-        self.visualizer.render(nodes, edges)
-        self.assertTrue(True)  
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_visualize_graph(self):
+        graph_data = {"nodes": ["John", "Acme Corp"], "edges": [("John", "Acme Corp")]}
+        visualization = self.visualizer.visualize(graph_data)
+        self.assertIsNotNone(visualization)

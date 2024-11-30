@@ -1,19 +1,11 @@
 import unittest
-from data_extraction.text_extraction import TextExtractor
+from data_extraction.text_extraction import TextExtraction
 
 class TestTextExtraction(unittest.TestCase):
     def setUp(self):
-        self.extractor = TextExtractor()
+        self.extractor = TextExtraction()
 
-    def test_extract_keywords(self):
-        text = "The quick brown fox jumps over the lazy dog."
-        keywords = self.extractor.extract_keywords(text)
-        self.assertIn("fox", keywords)
-
-    def test_extract_named_entities(self):
-        text = "John Doe lives in New York."
-        entities = self.extractor.extract_named_entities(text)
-        self.assertIn("John Doe", entities)
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_extract_text(self):
+        file_path = "/home/prxsxnthh/projects/wobb_AI/Prasanth_Thiagarajan - Resume.pdf"
+        text = self.extractor.extract_text(file_path)
+        self.assertGreater(len(text), 0)

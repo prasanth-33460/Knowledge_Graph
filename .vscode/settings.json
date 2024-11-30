@@ -1,6 +1,9 @@
 {
     "python.analysis.extraPaths": [
         "./wobb_ai/data_extraction",
-        "./wobb_ai"
+        "./wobb_ai",
+        "./wobb_ai/evaluation",
+        "./wobb_ai/tests/test_",
+        "./wobb_ai/final_evaluation"
     ]
 }

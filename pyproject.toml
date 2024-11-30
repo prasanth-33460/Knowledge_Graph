@@ -28,7 +28,9 @@ neo4j = "^5.27.0"
 pyvis = "^0.3.2"
 matplotlib = "^3.9.3"
 seaborn = "^0.13.2"
-
+py2neo = "^2021.2.4"
+rich = "10.15.2"
+pygments = ">=2.6.0,<3.0.0"
 
 [build-system]
 requires = ["poetry-core"]

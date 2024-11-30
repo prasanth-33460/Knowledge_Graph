@@ -1,17 +1,14 @@
 import unittest
-from evaluation.metrics import Metrics
+from final_evaluation.metrics import GraphEvaluation
 
 class TestMetrics(unittest.TestCase):
     def setUp(self):
-        self.metrics = Metrics()
+        self.evaluator = GraphEvaluation()
 
-    def test_evaluate(self):
-        schema = {"entities": ["A", "B"], "relationships": [("A", "related_to", "B")]}
-        entities = ["A", "B"]
-        relationships = [("A", "related_to", "B")]
-        evaluation = self.metrics.evaluate(schema, entities, relationships)
-        self.assertEqual(evaluation["completeness"], 1.0)
-        self.assertEqual(evaluation["accuracy"], 1.0)
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_evaluate_graph(self):
+        true_graph_data = [{"nodes": ["John", "Acme Corp"], "edges": [("John", "Acme Corp")]}]
+        predicted_graph_data = [{"nodes": ["John", "Acme Corp"], "edges": [("John", "Acme Corp")]}]
+        results = self.evaluator.evaluate(true_graph_data, predicted_graph_data)
+        self.assertIn("Graph_0", results)
+        self.assertIn("edit_distance", results["Graph_0"])
+        self.assertIn("centrality_difference", results["Graph_0"])

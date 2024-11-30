@@ -1,9 +1,8 @@
 from PyPDF2 import PdfReader
-
 class PDFParser:
     def parse(self, file_path):
         reader = PdfReader(file_path)
-        text = ""
+        text = " "
         for page in reader.pages:
             text += page.extract_text()
         return text
