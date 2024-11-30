@@ -5,10 +5,12 @@ pdfplumber@latest
 pytesseract
 beautifulsoup4
 streamlit
-sklearn
+scikit-learn
 nltk
 pandas
 requests
 pdfminer.six@20231228
 python-docx
 transformers
+Pillow
+PyPDF2
