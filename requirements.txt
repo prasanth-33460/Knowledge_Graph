@@ -1,0 +1,7 @@
+spacy
+networkx
+rdflib
+pdfplumber
+pytesseract
+beautifulsoup4
+streamlit
