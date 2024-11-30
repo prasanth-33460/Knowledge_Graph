@@ -14,3 +14,7 @@ python-docx
 transformers
 Pillow
 PyPDF2
+neo4j
+pyvis
+matplotlib
+seaborn

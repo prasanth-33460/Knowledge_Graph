@@ -1,31 +1,17 @@
-from text_extraction import DocumentExtractor
+import os
+from data_extraction.text_extraction import TextExtractor
+from config import Config
 
 class DocumentProcessor:
     def __init__(self):
-        self.extractor = DocumentExtractor()
-        
-    def process_document(self, file_path):
-        try:
-            text = self.extractor.extract_text_from_file(file_path)
-            print(f"Text extracted successfully from {file_path}")
-            return text
-        except Exception as e:
-            return f"Error extracting text from {file_path}: {e}"
-        
-    def extract_from_multiple_documents(self, file_paths):
-        texts = []
-        for file_path in file_paths:
-            text = self.process_document(file_path)
-            if text:
-                texts.append(text)
-        return texts
-    
-    def save_processed_text(self, file_path, output_file):
-        try:
-            text = self.process_document(file_path)
-            if text:
-                with open(output_file, 'w') as f:
-                    f.write(text)
-                print(f"Text saved to {output_file}")
-        except Exception as e:
-            print(f"Error saving text to {output_file}: {e}")
+        self.text_extractor = TextExtractor()
+
+    def process(self, file_path):
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"File not found: {file_path}")
+
+        file_extension = file_path.split(".")[-1].lower()
+        if file_extension not in Config.SUPPORTED_FORMATS:
+            raise ValueError(f"Unsupported file format: {file_extension}")
+
+        return self.text_extractor.extract(file_path)

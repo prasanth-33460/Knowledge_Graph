@@ -24,6 +24,10 @@ requests = "^2.32.3"
 python-docx = "^1.1.2"
 transformers = "^4.46.3"
 pypdf2 = "^3.0.1"
+neo4j = "^5.27.0"
+pyvis = "^0.3.2"
+matplotlib = "^3.9.3"
+seaborn = "^0.13.2"
 
 
 [build-system]
