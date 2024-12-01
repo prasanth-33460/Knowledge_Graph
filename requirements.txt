@@ -1,7 +1,6 @@
 spacy
 networkx
 rdflib
-pdfplumber==0.11.4
 pytesseract
 beautifulsoup4
 streamlit
@@ -9,7 +8,6 @@ scikit-learn
 nltk
 pandas
 requests
-pdfminer.six==20240706
 python-docx
 transformers
 Pillow
