@@ -1,92 +1,83 @@
-Knowledge Graph Construction and Evaluation
-Overview
-This project provides an end-to-end pipeline for constructing a knowledge graph from structured documents and evaluating the quality of the graph using accuracy and completeness metrics. It uses Neo4j for graph storage and provides various modules for document extraction, schema inference, and graph population. The evaluation process is enhanced by querying the Neo4j database to compare inferred entities and relationships with the ground truth.
+# Wobb AI: Document Processing and Knowledge Graph Pipeline
 
-The Metrics class in this project calculates the accuracy and completeness of the inferred knowledge graph by comparing it to the data stored in Neo4j.
+This project involves document processing, schema inference, and knowledge graph population using data extracted from documents. The goal is to process various documents, extract entities, relationships, and properties, infer a schema, and populate a Neo4j graph. The project also includes a Streamlit web app for dynamic interaction, allowing users to see the flow of document processing and explore the knowledge graph.
 
-Setup Instructions
+## Features
 
-1. Clone the Repository
-Clone the repository to your local machine:
-git clone <git@github.com>:prasanth-33460/wobb__AI.git
-cd wobb_AI
+- **Document Processing**: Extract entities, relationships, and properties from different document formats (PDF, DOCX, etc.).
+- **Schema Inference**: Infer a schema based on the extracted data, including entities and relationships.
+- **Knowledge Graph Population**: Add entities and relationships to a Neo4j database.
+- **Dynamic Prompts**: Generate dynamic prompts for schema refinement, entity relationships, and graph updates.
+- **Streamlit App**: Provides an interactive web interface to view and manage the pipeline process and Neo4j graph output.
 
-2. Install Dependencies
-Ensure you have Python 3.7+ installed, then install the required dependencies using Poetry (recommended) or pip.
+## Requirements
 
-Using Poetry:
-Poetry is a dependency manager for Python that simplifies the installation of dependencies.
---> Install Poetry (if not already installed):
-curl -sSL <https://install.python-poetry.org> | python3 -
---> Install project dependencies:
-poetry install
--->Using pip:
-Alternatively, you can install dependencies directly using pip:
+- Python 3.7 or later
+- Neo4j database (local or cloud instance)
+- Streamlit for web interface
+
+## Setup Instructions
+
+Follow these steps to set up and run the project:
+
+### 1. Clone the repository
+First, clone the project repository:
+
+git clone https://github.com/prasanth-33460/wobb__AI.git
+cd wobb-ai
+
+2. Install dependencies
+Create a virtual environment and install the required packages using pip:
+
+Option 1: Using requirements.txt
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
-3. Neo4j Setup
-This project uses Neo4j to store and query the knowledge graph. You need to have a running Neo4j instance:
 
-Install Neo4j Community Edition from Neo4j's official website.
-Start Neo4j on your local machine (default port 7687 for the bolt protocol).
-You can use the default credentials (neo4j / password) for local setup, or configure them according to your environment.
+Option 2: Using Poetry (if preferred)
+poetry init
+poetry install $(cat requirements.txt)
 
-Configuration
-Before running the evaluation or other components, make sure to configure the Neo4j connection URI in the Metrics class:
-neo4j_uri = "bolt://localhost:7687"  # Adjust based on your Neo4j setup
-You also need to specify the ground truth schema, which will be used to calculate accuracy and completeness metrics.
+3. Configure Neo4j
+Make sure you have a Neo4j instance running. You can either set up a local Neo4j instance or use Neo4j Aura (cloud service).
 
-Usage
-Running the Evaluation
-You can evaluate the knowledge graph's accuracy and completeness by running the Metrics class. This will compare the inferred entities and relationships against the ground truth stored in your Neo4j instance.
+Local Neo4j: Download and install Neo4j Desktop or run a Docker container.
+Neo4j Aura: Create a free instance on Neo4j Aura.
+Once your Neo4j instance is running, make sure to update the config.py file with your Neo4j connection details (username, password, and URI).
 
-Example:
+Example of config.py:
+class Config:
+    NE4J_URI = "neo4j://localhost:7687"  # Update with your Neo4j URI
+    NE4J_USERNAME = "neo4j" 
+    NE4J_PASSWORD = "your_password" #update with your neo4j password
 
-from wobb_ai.evaluation.metrics import Metrics
-neo4j_uri = "bolt://localhost:7687"  # Adjust based on your setup
-ground_truth_schema = {
-    "entities": ["John", "Google", "Mary", "Microsoft"],
-    "relationships": [
-        {"source": "John", "relation": "works_with", "target": "Google"},
-        {"source": "Mary", "relation": "works_with", "target": "Microsoft"}
-    ]
-}
+4. Run the Pipeline
+To run the document processing and knowledge graph pipeline, simply run the following:
+python wobb_ai/main.py
 
-metrics = Metrics(neo4j_uri, ground_truth_schema)
+This will:
 
-inferred_entities = [
-    {"entity": "John", "type": "PERSON"},
-    {"entity": "Google", "type": "ORG"},
-    {"entity": "Mary", "type": "PERSON"},
-    {"entity": "Microsoft", "type": "ORG"}
-]
+Process the input document (e.g., Resume.pdf).
+Extract entities, relationships, and properties.
+Infer a schema and populate the Neo4j graph.
 
-inferred_relationships = [
-    {"source": "John", "relation": "works_with", "target": "Google"},
-    {"source": "Mary", "relation": "works_with", "target": "Microsoft"}
-]
+5. Run the Streamlit Web Interface
+To view the results in the web interface, run the Streamlit app:
+streamlit run wobb_ai/app.py
 
-result = metrics.evaluate(None, inferred_entities, inferred_relationships)
-print(result)
+This will open a local Streamlit app where you can:
 
-Expected Output:
+View the document processing steps.
+Generate dynamic prompts for schema inference.
+View the populated knowledge graph from Neo4j.
 
-{
-    "accuracy": 100.0,
-    "completeness": 100.0
-}
+6. Testing
+Run the tests using:
+pytest/
+...following
 
-Customizing the Evaluation
-The accuracy metric reflects how many inferred entities and relationships match the ground truth stored in the Neo4j database.
-The completeness metric indicates how many of the ground truth entities and relationships are correctly identified in the inferred knowledge graph.Testing
-You can run the tests to verify the correctness of each module in the project.
-
---> Install pytest if not already installed:
-            pip install pytest
---> Run the tests:
-            pytest tests/
-
-Contributing
-Contributions to this project are welcome! If you'd like to improve the functionality, fix bugs, or add new features, feel free to submit a pull request.
-
-Final Notes
-This project provides a foundational pipeline for knowledge graph construction and evaluation using Neo4j. It can be adapted for various types of structured documents, with easy integration for future improvements and more complex evaluation metrics.
+Troubleshooting
+Neo4j connection issues: Double-check the URI, username, and password in config.py. If you're using a remote instance, ensure your firewall or cloud security settings allow the connection.
+Missing dependencies: If you encounter missing dependencies, run pip install -r requirements.txt again to ensure all required packages are installed.
+Streamlit app not running: Ensure the correct port is available (Streamlit defaults to port 8501). If it's taken, run Streamlit on a different port:
+streamlit run streamlit_app/app.py --server.port 8502
