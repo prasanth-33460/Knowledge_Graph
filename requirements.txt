@@ -1,7 +1,7 @@
 spacy
 networkx
 rdflib
-pdfplumber@latest
+pdfplumber==0.11.4
 pytesseract
 beautifulsoup4
 streamlit
