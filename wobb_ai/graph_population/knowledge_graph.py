@@ -157,3 +157,16 @@ class KnowledgeGraph:
         except Exception as e:
             logger.error(f"Failed to update entity '{entity_name}': {e}")
             raise e
+        
+    def get_nodes_and_relationships(self):
+        session = self.driver.session()
+        query = "MATCH (n)-[r]->(m) RETURN n, r, m LIMIT 25"
+        result = session.run(query)
+        nodes = []
+        relationships = []
+        for record in result:
+            nodes.append(record["n"])
+            nodes.append(record["m"])
+            relationships.append(record["r"])
+        session.close()
+        return nodes, relationships
