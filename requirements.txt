@@ -16,3 +16,4 @@ neo4j
 pyvis
 matplotlib
 seaborn
+camelot

@@ -1,151 +1,86 @@
-import re
 import pdfplumber
+import fitz  # PyMuPDF
 
-SECTION_PATTERN = re.compile(r"^P\d+")  # Pattern for section identification
-PARAMETER_PATTERN = re.compile(r"^[A-Za-z\s]+:")  # Pattern for parameter identification
+# Function to extract text within the bounding box using PyMuPDF (fitz)
+def extract_table_text_using_pymupdf(pdf_path, page_num, bbox):
+    doc = fitz.open(pdf_path)
+    page = doc.load_page(page_num)  # page_num is zero-indexed
+    # Extract text within the bounding box (bbox format: [x0, y0, x1, y1])
+    text = page.get_text("text", clip=bbox)
+    return text
 
-class TableExtractor:
-    def __init__(self):
-        pass
+# Function to calculate the bounding box of a table based on word positions
+def get_table_bbox(page, table):
+    # Extract words on the page with their bounding boxes
+    words = page.extract_words()
     
-    def extract_tables(self, document_path):
-        """
-        Extract tables from a PDF document.
+    # Initialize the bounding box values
+    x0, y0, x1, y1 = float('inf'), float('inf'), float('-inf'), float('-inf')
+    
+    # Iterate through the table to find the positions of the words (table cells)
+    for row in table:
+        for cell in row:
+            if cell:  # Only process non-None cells
+                # Find the position of the word (matching the cell content)
+                for word in words:
+                    if word['text'] == cell:  # Match the cell text with the word text
+                        # Update the bounding box
+                        x0 = min(x0, word['doctop'])
+                        y0 = min(y0, word['bottom'])
+                        x1 = max(x1, word['doctop'])
+                        y1 = max(y1, word['top'])
+    
+    # Return the bounding box as [x0, y0, x1, y1]
+    return [x0, y0, x1, y1]
 
-        Args:
-            document_path (str): The path to the PDF document.
-
-        Returns:
-            list: A list of tables extracted from the document.
-        """
-        tables = []
-        try:
-            # Open the PDF document using pdfplumber
-            with pdfplumber.open(document_path) as pdf:
-                for page in pdf.pages:
-                    # Extract tables from the page
-                    table = page.extract_tables()
-                    if table:
-                        tables.append(table)
-            return tables
-        except Exception as e:
-            print(f"Error extracting tables from the document: {e}")
-            return []
-        
-    def parse_table_data(self, tables):
-        """
-        Parse the extracted tables into structured data.
-
-        Args:
-            tables (list): List of extracted tables.
-
-        Returns:
-            list: Parsed data, each containing a section and its parameters.
-        """
-        parsed_data = []
-        for table in tables:
-            section = self.extract_section(table)
-            parameters = self.extract_parameters(table)
+# Function to process the PDF and extract valid tables
+def process_pdf(pdf_path):
+    all_tables = []
+    
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_num in range(len(pdf.pages)):  # Loop through all pages
+            page = pdf.pages[page_num]
             
-            if section and parameters:
-                parsed_data.append({"section": section, "parameters": parameters})
-        return parsed_data
+            # Extract tables on the current page
+            tables = page.extract_tables()
+            print(f"Extracted tables from page {page_num + 1}:")  # Debug print
+            
+            if tables:
+                for table in tables:
+                    # Print out every row of the table, including None values, and keep all rows
+                    print(f"Raw Table from page {page_num + 1}:")
+                    for row in table:
+                        print(row)  # Print the raw table data (including rows with None values)
+                    
+                    # Clean up table by removing empty rows but process all rows
+                    # Skip nothing, print all rows
+                    cleaned_table = [row for row in table if row]  # Remove completely empty rows
+                    
+                    # Get the bounding box of the table
+                    bbox = get_table_bbox(page, cleaned_table)
+                    
+                    # Extract the contents of the table using PyMuPDF for detailed text
+                    extracted_text = extract_table_text_using_pymupdf(pdf_path, page_num, bbox)
+                    
+                    # Store extracted table data with content
+                    all_tables.append((page_num, table, extracted_text))
+    
+    return all_tables
 
-    def extract_section(self, table):
-        """
-        Extract section information from the first row of the table.
+# Path to your PDF file
+pdf_file = "ASEAN.pdf"  # Update this with your actual PDF path
 
-        Args:
-            table (list): The table to extract the section from.
+# Call the function to process the PDF
+valid_tables = process_pdf(pdf_file)
 
-        Returns:
-            dict: The section data, or None if no section is found.
-        """
-        if not table:
-            return None
-        
-        first_row = table[0]  # Get the first row of the table
-        first_cell = first_row[0] if isinstance(first_row[0], str) else " ".join(map(str, first_row[0]))
-
-        match = SECTION_PATTERN.match(first_cell)
-        if match:
-            section = match.group(0)
-            return {"section": section}
-        else:
-            return None
-        
-    def extract_parameters(self, table):
-        """
-        Extract parameters from the table.
-
-        Args:
-            table (list): The table to extract parameters from.
-
-        Returns:
-            list: List of parameters extracted from the table.
-        """
-        parameters = []
+# Output the result
+if valid_tables:
+    for page_num, table, page_text in valid_tables:
+        print(f"\nExtracted Table from Page {page_num + 1}:")
         for row in table:
-            param = self.extract_parameter(row)
-            if param:
-                parameters.append(param)
-        return parameters
-    
-    def extract_parameter(self, row):
-        """
-        Extract a parameter from a row in the table.
-
-        Args:
-            row (list): A row in the table.
-
-        Returns:
-            dict: The parameter data, or None if no parameter is found.
-        """
-        if not row:
-            return None
-        
-        # Ensure that the first element of the row is a string
-        first_cell = row[0] if isinstance(row[0], str) else " ".join(map(str, row[0]))
-
-        param_match = PARAMETER_PATTERN.match(first_cell)
-        if param_match:
-            parameter = param_match.group(0).strip(":")  # Remove colon if present
-            components = self.extract_components(row)
-            return {"parameter": parameter, "components": components}
-        return None
-    
-    def extract_components(self, row):
-        """
-        Extract components and their requirements from a row in the table.
-
-        Args:
-            row (list): A row in the table.
-
-        Returns:
-            list: List of components and their requirements.
-        """
-        components = []
-        for idx in range(1, len(row), 2):
-            component = row[idx]
-            requirement_str = row[idx + 1] if idx + 1 < len(row) else ""
-            requirements = self.extract_requirements(requirement_str)
-            components.append({"component": component, "requirements": requirements})
-        return components
-    
-    def extract_requirements(self, requirement_str):
-        """
-        Extract requirements from a string.
-
-        Args:
-            requirement_str (str): The string containing requirements.
-
-        Returns:
-            dict: A dictionary of requirements.
-        """
-        requirements = {}
-        reqs = requirement_str.split(",")
-        for req in reqs:
-            parts = req.split(":")
-            if len(parts) == 2:
-                requirements[parts[0].strip()] = parts[1].strip()
-        return requirements
+            print(row)
+        print("\nExtracted Table Text from Page:")
+        print(page_text)
+        print("\n" + "-"*50)
+else:
+    print("No valid tables found.")
