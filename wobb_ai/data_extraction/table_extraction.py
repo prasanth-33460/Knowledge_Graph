@@ -25,16 +25,16 @@ def get_table_bbox(page, table):
                 for word in words:
                     if word['text'] == cell:  # Match the cell text with the word text
                         # Update the bounding box
-                        x0 = min(x0, word['doctop'])
-                        y0 = min(y0, word['bottom'])
-                        x1 = max(x1, word['doctop'])
-                        y1 = max(y1, word['top'])
+                        x0 = min(x0, word['x0'])
+                        y0 = min(y0, word['top'])
+                        x1 = max(x1, word['x1'])
+                        y1 = max(y1, word['bottom'])
     
     # Return the bounding box as [x0, y0, x1, y1]
     return [x0, y0, x1, y1]
 
 # Function to process the PDF and extract valid tables
-def process_pdf(pdf_path):
+def process_pdf(pdf_path, output_file):
     all_tables = []
     
     with pdfplumber.open(pdf_path) as pdf:
@@ -43,17 +43,10 @@ def process_pdf(pdf_path):
             
             # Extract tables on the current page
             tables = page.extract_tables()
-            print(f"Extracted tables from page {page_num + 1}:")  # Debug print
             
             if tables:
                 for table in tables:
-                    # Print out every row of the table, including None values, and keep all rows
-                    print(f"Raw Table from page {page_num + 1}:")
-                    for row in table:
-                        print(row)  # Print the raw table data (including rows with None values)
-                    
                     # Clean up table by removing empty rows but process all rows
-                    # Skip nothing, print all rows
                     cleaned_table = [row for row in table if row]  # Remove completely empty rows
                     
                     # Get the bounding box of the table
@@ -62,25 +55,24 @@ def process_pdf(pdf_path):
                     # Extract the contents of the table using PyMuPDF for detailed text
                     extracted_text = extract_table_text_using_pymupdf(pdf_path, page_num, bbox)
                     
-                    # Store extracted table data with content
-                    all_tables.append((page_num, table, extracted_text))
+                    # Prepare the data to be written to the output file
+                    with open(output_file, "a") as f:
+                        f.write(f"\nExtracted Table from Page {page_num + 1}:\n")
+                        for row in table:
+                            f.write(f"{row}\n")
+                        
+                        f.write("\nExtracted Table Text from Page:\n")
+                        f.write(f"{extracted_text}\n")
+                        f.write("\n" + "-"*50 + "\n")
     
     return all_tables
 
 # Path to your PDF file
 pdf_file = "ASEAN.pdf"  # Update this with your actual PDF path
+output_file = "output_tables.txt"  # File to store the output
 
-# Call the function to process the PDF
-valid_tables = process_pdf(pdf_file)
+# Call the function to process the PDF and store output in the text file
+valid_tables = process_pdf(pdf_file, output_file)
 
-# Output the result
-if valid_tables:
-    for page_num, table, page_text in valid_tables:
-        print(f"\nExtracted Table from Page {page_num + 1}:")
-        for row in table:
-            print(row)
-        print("\nExtracted Table Text from Page:")
-        print(page_text)
-        print("\n" + "-"*50)
-else:
-    print("No valid tables found.")
+# Confirm that the output has been written to the file
+print(f"Extraction complete. Data written to {output_file}.")
