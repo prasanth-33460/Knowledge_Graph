@@ -3,9 +3,18 @@ from data_extraction.table_extraction import TableExtractor
 from graph_population.knowledge_graph import KnowledgeGraph
 from schema_inference.schema_inference import SchemaInference
 from prompts.dynamic_prompts import DynamicPrompts
+from utils.formatter import Formatter
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
+# Configure logging to both console and file
+log_file = "document_processing_output.log"  # Define the log file name
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.StreamHandler(),  # Console output
+        logging.FileHandler(log_file, mode='w')  # File output (overwrites each time)
+    ]
+)
 logger = logging.getLogger(__name__)
 
 class DocumentProcessingPipeline:
@@ -47,6 +56,12 @@ class DocumentProcessingPipeline:
             # Step 4: Infer schema from the extracted and updated data
             logger.info("Inferring schema from the extracted data...")
             entities, relationships = self.schema_inference.infer_schema(drug_names, parsed_table_data)
+
+            # Check if entities or relationships are empty
+            if not entities or not relationships:
+                logger.warning("No entities or relationships were inferred. Exiting pipeline.")
+                return
+
             logger.info(f"Inferred entities: {entities}")
             logger.info(f"Inferred relationships: {relationships}")
 
@@ -59,6 +74,14 @@ class DocumentProcessingPipeline:
             self.knowledge_graph.add_entities_and_relationships(entities, relationships)
             logger.info("Knowledge graph populated successfully.")
             self.knowledge_graph.close_connection()
+
+            # Step 7: Clean and format the output before final logging
+            logger.info("Cleaning and formatting the output...")
+            formatted_entities = Formatter.clean_and_format_output(entities)
+            formatted_relationships = Formatter.clean_and_format_output(relationships)
+
+            logger.info(f"Formatted Entities: {formatted_entities}")
+            logger.info(f"Formatted Relationships: {formatted_relationships}")
 
             logger.info("Document processing pipeline executed successfully.")
         except Exception as e:
