@@ -1,49 +1,151 @@
-import logging
+import re
 import pdfplumber
 
-logger = logging.getLogger(__name__)
+SECTION_PATTERN = re.compile(r"^P\d+")  # Pattern for section identification
+PARAMETER_PATTERN = re.compile(r"^[A-Za-z\s]+:")  # Pattern for parameter identification
 
 class TableExtractor:
-    def __init__(self, pdf_path):
-        self.pdf_path = pdf_path
+    def __init__(self):
+        pass
+    
+    def extract_tables(self, document_path):
+        """
+        Extract tables from a PDF document.
 
-    def extract_tables(self):
+        Args:
+            document_path (str): The path to the PDF document.
+
+        Returns:
+            list: A list of tables extracted from the document.
         """
-        Extract tables from the given PDF file.
-        """
-        logger.info(f"Extracting tables from PDF: {self.pdf_path}")
-        tables_data = []
+        tables = []
         try:
-            with pdfplumber.open(self.pdf_path) as pdf:
-                for page_num, page in enumerate(pdf.pages, start=1):
-                    logger.debug(f"Processing page {page_num}...")
-                    tables = page.extract_tables()
-                    if not tables:
-                        logger.debug(f"No tables found on page {page_num}.")
-                        continue
-
-                    for table in tables:
-                        logger.info(f"Table found on page {page_num}. Processing...")
-                        structured_table = [row for row in table if any(row)]  # Remove empty rows
-                        tables_data.append(structured_table)
+            # Open the PDF document using pdfplumber
+            with pdfplumber.open(document_path) as pdf:
+                for page in pdf.pages:
+                    # Extract tables from the page
+                    table = page.extract_tables()
+                    if table:
+                        tables.append(table)
+            return tables
         except Exception as e:
-            logger.error(f"Error during table extraction: {e}", exc_info=True)
-
-        logger.info(f"Extracted {len(tables_data)} tables from the PDF.")
-        return tables_data
-
+            print(f"Error extracting tables from the document: {e}")
+            return []
+        
     def parse_table_data(self, tables):
         """
-        Parse extracted tables to identify potential drug names and other data.
+        Parse the extracted tables into structured data.
+
+        Args:
+            tables (list): List of extracted tables.
+
+        Returns:
+            list: Parsed data, each containing a section and its parameters.
         """
-        drug_names = set()
         parsed_data = []
-
         for table in tables:
-            for row in table:
-                for cell in row:
-                    if isinstance(cell, str) and "drug" in cell.lower():
-                        drug_names.add(cell.strip())
-                    parsed_data.append(row)
+            section = self.extract_section(table)
+            parameters = self.extract_parameters(table)
+            
+            if section and parameters:
+                parsed_data.append({"section": section, "parameters": parameters})
+        return parsed_data
 
-        return list(drug_names), parsed_data
+    def extract_section(self, table):
+        """
+        Extract section information from the first row of the table.
+
+        Args:
+            table (list): The table to extract the section from.
+
+        Returns:
+            dict: The section data, or None if no section is found.
+        """
+        if not table:
+            return None
+        
+        first_row = table[0]  # Get the first row of the table
+        first_cell = first_row[0] if isinstance(first_row[0], str) else " ".join(map(str, first_row[0]))
+
+        match = SECTION_PATTERN.match(first_cell)
+        if match:
+            section = match.group(0)
+            return {"section": section}
+        else:
+            return None
+        
+    def extract_parameters(self, table):
+        """
+        Extract parameters from the table.
+
+        Args:
+            table (list): The table to extract parameters from.
+
+        Returns:
+            list: List of parameters extracted from the table.
+        """
+        parameters = []
+        for row in table:
+            param = self.extract_parameter(row)
+            if param:
+                parameters.append(param)
+        return parameters
+    
+    def extract_parameter(self, row):
+        """
+        Extract a parameter from a row in the table.
+
+        Args:
+            row (list): A row in the table.
+
+        Returns:
+            dict: The parameter data, or None if no parameter is found.
+        """
+        if not row:
+            return None
+        
+        # Ensure that the first element of the row is a string
+        first_cell = row[0] if isinstance(row[0], str) else " ".join(map(str, row[0]))
+
+        param_match = PARAMETER_PATTERN.match(first_cell)
+        if param_match:
+            parameter = param_match.group(0).strip(":")  # Remove colon if present
+            components = self.extract_components(row)
+            return {"parameter": parameter, "components": components}
+        return None
+    
+    def extract_components(self, row):
+        """
+        Extract components and their requirements from a row in the table.
+
+        Args:
+            row (list): A row in the table.
+
+        Returns:
+            list: List of components and their requirements.
+        """
+        components = []
+        for idx in range(1, len(row), 2):
+            component = row[idx]
+            requirement_str = row[idx + 1] if idx + 1 < len(row) else ""
+            requirements = self.extract_requirements(requirement_str)
+            components.append({"component": component, "requirements": requirements})
+        return components
+    
+    def extract_requirements(self, requirement_str):
+        """
+        Extract requirements from a string.
+
+        Args:
+            requirement_str (str): The string containing requirements.
+
+        Returns:
+            dict: A dictionary of requirements.
+        """
+        requirements = {}
+        reqs = requirement_str.split(",")
+        for req in reqs:
+            parts = req.split(":")
+            if len(parts) == 2:
+                requirements[parts[0].strip()] = parts[1].strip()
+        return requirements

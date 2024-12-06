@@ -1,0 +1,1710 @@
+Section: No.
+Description: PARAMETERS
+  Parameter: COMPONENTS
+  Description: REQUIREMENTS
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: NCE
+    Component: BIOTECH
+    Component: MaV
+    Component: MiV
+    Component: G
+  Requirements: MaV
+----------------------------------------
+Section: No.
+Description: PARAMETERS
+  Parameter: COMPONENTS
+  Description: REQUIREMENTS
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: NCE
+    Component: BIOTECH
+    Component: MaV
+    Component: MiV
+    Component: G
+  Requirements: MaV
+----------------------------------------
+Section: No.
+Description: PARAMETERS
+  Parameter: COMPONENTS
+  Description: REQUIREMENTS
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: NCE
+    Component: BIOTECH
+    Component: MaV
+    Component: MiV
+    Component: G
+  Requirements: MaV
+----------------------------------------
+Section: No.
+Description: PARAMETERS
+  Parameter: COMPONENTS
+  Description: REQUIREMENTS
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: NCE
+    Component: BIOTECH
+    Component: MaV
+    Component: MiV
+    Component: G
+  Requirements: MaV
+----------------------------------------
+Section: No.
+Description: PARAMETERS
+  Parameter: COMPONENTS
+  Description: REQUIREMENTS
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: NCE
+    Component: BIOTECH
+    Component: MaV
+    Component: MiV
+    Component: G
+  Requirements: MaV
+----------------------------------------
+Section: No.
+Description: PARAMETERS
+  Parameter: COMPONENTS
+  Description: REQUIREMENTS
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: NCE
+    Component: BIOTECH
+    Component: MaV
+    Component: MiV
+    Component: G
+  Requirements: MaV
+----------------------------------------
+Section: ['P6', 'P7', 'P8', 'P9']
+Description: ['Reference Standards or', 'Materials', 'Container Closure System', 'Stability', 'Product Interchangeability', 'Equivalence evidence']
+  Parameter: ['− Information on the reference standards', 'or reference materials used for testing of', 'the finished product.', 'Compendial requirements or appropriate', 'information from the manufacturer', '− Specification and control of primary and', 'secondary packaging material, type of', 'packaging and the package size, details', 'of packaging inclusion (e.g. desiccant,', 'etc)', 'Stability report: data demonstrating that', 'product is stable through its proposed', 'shelf life.', 'Commitment on post approval stability', 'monitoring', '− In Vitro', 'Comparative dissolution study as', 'required', '− In Vivo', 'Bioequivalence study as required']
+  Description: ['\uf0fc', '\uf0fc', '\uf0fc']
+    Component: ['\uf0fc', '\uf0fc', '\uf0fc']
+    Component: ['\uf0fc*', '\uf0fc*', '\uf0fc*', '\uf0fc*', '\uf0fc*']
+    Component: *
+    Component: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Requirements: ['\uf0fc*', '\uf0fc*', '\uf0fc*', '\uf0fc*', '\uf0fc*']
+----------------------------------------
+Section: ['Study type and', 'duration']
+Description: ['Route of', 'administration']
+  Parameter: Species
+  Description: ['Compound', 'administered*']
+  Requirements: N/A
+----------------------------------------
+Section: Single-dose toxicity
+Description: Po and iv
+  Parameter: Rat and mouse
+  Description: Parent drug
+  Requirements: N/A
+----------------------------------------
+Section: Single-dose toxicity
+Description: Po and iv
+  Parameter: Rat and mouse
+  Description: Metabolite X
+  Requirements: N/A
+----------------------------------------
+Section: Repeat-dose toxicity
+Description: 
+  Parameter: 
+  Description: 
+  Requirements: N/A
+----------------------------------------
+Section: 1 month
+Description: po
+  Parameter: Rat and dog
+  Description: Parent drug
+  Requirements: N/A
+----------------------------------------
+Section: 6 month
+Description: po
+  Parameter: Rat
+  Description: Parent drug
+  Requirements: N/A
+----------------------------------------
+Section: 9 month
+Description: po
+  Parameter: Dog
+  Description: Parent drug
+  Requirements: N/A
+----------------------------------------
+Section: Part III: Document
+Description: NCE
+  Parameter: BIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: G
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: S/P
+    Component: IND
+    Component: 
+    Component: 
+  Requirements: IND
+----------------------------------------
+Section: Section A. Table of Content
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Section B. Nonclinical Overview
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['1. General Aspect', '2. Content and structural format']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Section C. Nonclinical Summary (Written and', 'Tabulated)']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 1. Nonclinical Written Summaries
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['1.1 Pharmacology', '1.1.1 Primary Pharmacodynamics', '1.1.2 Secondary Pharmacodynamics', '1.1.3 Safety Pharmacology', '1.1.4 Pharmcodynamics Drug Interactions']
+Description: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Parameter: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['1.2 Pharmacokinetics', '1.2.1 Absorption', '1.2.2 Distribution', '1.2.3 Metabolism', '1.2.4 Excretion', '1.2.5 Pharmacokinetics Drug Interaction', '(non- clinical)', '1.2.6 Other Pharmacokinetics Studies']
+Description: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Parameter: ['\uf076', '\uf076', '\uf076', '\uf076']
+  Description: ['\uf076', '\uf076', '\uf076', '\uf076', '\uf076']
+    Component: ['\uf076', '\uf076', '\uf076', '\uf076']
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Part III: Document
+Description: NCE
+  Parameter: BIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: G
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: S/P
+    Component: IND
+    Component: 
+    Component: 
+  Requirements: IND
+----------------------------------------
+Section: ['1.3 Toxicology', '1.3.1 Single dose toxicity', '1.3.2 Repeat dose toxicity', '1.3.3 Genotoxicity', '1.3.4 Carcinogenicity', '1.3.5 Reproductive and developmental', 'toxicity', '1.3.5.1 Fertility and early embryonic', 'development', '1.3.5.2 Embryo-fetal development', '1.3.5.3 Prenatal and postnatal', 'development', '1.3.6 Local tolerance', '1.3.7 Other toxicity studies, if available']
+Description: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf076', '\uf076']
+  Parameter: ['\uf0fc', '\uf0fc', '\uf074', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf076', '\uf076']
+  Description: ['\uf076', '\uf076']
+    Component: ['\uf076', '\uf076']
+    Component: ['\uf076', '\uf076']
+    Component: 
+    Component: 
+  Requirements: ['\uf076', '\uf076']
+----------------------------------------
+Section: 2. Nonclinical Tabulated Summaries
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Section D. Nonclinical Study Report (As requested)
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 1. Table of Content
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['2. Pharmacology', '2.1 Primary Pharmacodynamics', '2.2 Secondary Pharmacodynamics', '2.3 Safety Pharmacology', '2.4 Pharmacodynamics Drug Interactions']
+Description: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Parameter: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Part III: Document
+Description: NCE
+  Parameter: BIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: G
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: S/P
+    Component: IND
+    Component: 
+    Component: 
+  Requirements: IND
+----------------------------------------
+Section: ['3. Pharmacokinetics', '3.1 Analytical Methods and Validation Reports', '3.2 Absorption', '3.3 Distribution', '3.4 Metabolism', '3.5 Excretion', '3.6 Pharmacokinetics Drug Interaction (non-', 'clinical)', '3.7 Other Pharmacokinetics studies']
+Description: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Parameter: ['\uf076', '\uf076', '\uf076', '\uf076', '\uf076', '\uf076', '\uf076']
+  Description: ['\uf076', '\uf076', '\uf076', '\uf076', '\uf076']
+    Component: ['\uf076', '\uf076', '\uf076', '\uf076']
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['4. Toxicology', '4.1 Single dose toxicity', '4.2 Repeat dose toxicity', '4.3 Genotoxicity', '4.3.1 In vitro', '4.3.2 In vivo', '4.4 Carcinogenicity', '4.4.1 Long term studies', '4.4.2 Short or medium term studies', '4.4.3 Other studies', '4.5 Reproductive and developmental toxicity', '4.5.1 Fertility and early embryonic', 'development', '4.5.2 Embryo-fetal development', '4.5.3 Prenatal and postnatal development', '4.5.4 Studies in which the offspring are', 'dosed and/or further evaluated']
+Description: ['\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Parameter: ['\uf0fc', '\uf0fc', '\uf074', '\uf074', '\uf074', '\uf074', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc', '\uf0fc']
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Part III: Document
+Description: NCE
+  Parameter: BIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: G
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: S/P
+    Component: IND
+    Component: 
+    Component: 
+  Requirements: IND
+----------------------------------------
+Section: ['4.6 Local tolerance', '4.7 Other toxicity studies, if available', '4.7.1 Antigenicity', '4.7.2 Immunotoxicity', '4.7.3 Dependence', '4.7.4 Metabolites', '4.7.5 Impurities', '4.7.6 Other']
+Description: ['\uf076', '\uf076']
+  Parameter: ['\uf076', '\uf076']
+  Description: ['\uf076', '\uf076']
+    Component: ['\uf076', '\uf076']
+    Component: ['\uf076', '\uf076']
+    Component: 
+    Component: 
+  Requirements: ['\uf076', '\uf076']
+----------------------------------------
+Section: Section E. List of Key Literature References
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Study', 'Ref. No.']
+Description: Study Objective
+  Parameter: Study Design
+  Description: ['Treatments', '(Dose,', 'Dosage Form,', 'Route) [Product', 'ID]']
+    Component: ['Subjects', '(No.(M/F)', 'type', 'Age: mean', '(range)']
+    Component: Mean Parameters (+/- SD)
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+    Component: ['Study', 'Report', 'Location']
+  Requirements: Mean Parameters (+/- SD)
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: ['Cmax', '(mg/L)']
+    Component: ['Tmax', '(hr)']
+    Component: ['AUC*', '(mg/Lxhr)']
+    Component: ['Cmin**', '(mg/L)']
+    Component: ['T1/2', '(hr)']
+    Component: Other
+    Component: 
+  Requirements: ['Cmax', '(mg/L)']
+----------------------------------------
+Section: ['192', '(Japan)']
+Description: ['Pilot relative BA', 'study comparing', 'the absorption', 'from a 200mg', 'tablet batch to a', '200mg reference', 'batch.']
+  Parameter: ['Open,', 'randomized,', 'cross-over,', 'single 200 mg', 'dose']
+  Description: ['200mg Tab., p.o.', '[17762]', '200mg Tab.. p.o.', '[19426]']
+    Component: ['20 (10/10)', 'Healthy', 'volunteer', '27 y (20-35)']
+    Component: ['83 ± 21', '80 ± 32']
+    Component: ['1', '0.5']
+    Component: ['217 ± 20', '223 ± 19']
+    Component: 
+    Component: ['3.1', '2.9']
+    Component: 
+    Component: 
+  Requirements: ['83 ± 21', '80 ± 32']
+----------------------------------------
+Section: ['195', '(Japan)']
+Description: ['Comparative BA', 'study of xx', 'under fasted and', 'fed conditions']
+  Parameter: ['Open,', 'randomized,', 'cross-over,', 'single dose']
+  Description: ['200mg Tab, p.o.', '[19426]']
+    Component: ['30 (15/15)', 'Healthy', 'volunteer', '32 y (26-50)']
+    Component: ['83 ± 21', '120 ± 30']
+    Component: ['1', '2']
+    Component: ['217 ± 20', '350 ± 40']
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: ['83 ± 21', '120 ± 30']
+----------------------------------------
+Section: ['Study', 'Ref.', 'No.']
+Description: ['Product', 'ID/Batch No.']
+  Parameter: Dosage Form
+  Description: Conditions
+    Component: ['No. of', 'Dosage', 'Units']
+    Component: ['Collection times', 'Mean % Dissolved (range)']
+    Component: ['Study', 'Report', 'Location']
+  Requirements: ['Collection times', 'Mean % Dissolved (range)']
+----------------------------------------
+Section: 1821
+Description: 979-03
+  Parameter: 25mg Cap.
+  Description: ['Dissolution: Apparatus 2 (USP)', 'Speed of Rotation: 50 rpm', 'Medium/Temperature: Water 37°']
+    Component: 12
+    Component: ['10 20 30 (min)', '42 (32-49) 71 (58-85) 99 (96-100) (%)']
+    Component: 
+  Requirements: ['10 20 30 (min)', '42 (32-49) 71 (58-85) 99 (96-100) (%)']
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Study/', 'Protocol #', '(Country)']
+Description: ['Product', 'ID/Batch', '# (NME)']
+  Parameter: ['Study', 'Objective']
+  Description: ['Study', 'Design']
+    Component: ['# Subjects', 'Entered/', 'Complet', 'ed (M/F)']
+    Component: ['HV/P1', '(Age:', 'Mean,', 'range)']
+    Component: Treatments
+    Component: None
+    Component: ['Mean Pharmacokinetic Parameters (%CV)', 'Substrate Drug']
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+    Component: ['Mean ratio2', 'Confidence', 'interval']
+    Component: None
+    Component: Location
+  Requirements: ['HV/P1', '(Age:', 'Mean,', 'range)']
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: Substrate
+    Component: ['Interacting', 'Drug']
+    Component: Cmax
+    Component: Tmax
+    Component: AUC
+    Component: T1/2
+    Component: CL/kg
+    Component: Cmax
+    Component: AUC
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['001', '(USA)']
+Description: ['19B', 'Batch', '0034']
+  Parameter: ['Effect of', 'warfarin on', 'Drug X']
+  Description: ['Randomi', 'zed,', 'Cross', 'over']
+    Component: ['(8M/4F)/', '(7M/4F)']
+    Component: ['HV (34,', '20-41)']
+    Component: ['Drug X 100', 'mg bid x 7d']
+    Component: Placebo
+    Component: ['45 (18)', 'Φg/mL']
+    Component: ['2.0', '(30) hr']
+    Component: ['456 (24)', 'Φg*hr/', 'mL']
+    Component: ['4.25', '(30)', 'hr']
+    Component: ['0.05 (20)', 'mL/', 'min/k g']
+    Component: ['1.16', '1.01-', '1.30']
+    Component: ['1.16', '1.03-', '1.34']
+    Component: 
+  Requirements: ['HV (34,', '20-41)']
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: ['Drug X 100', 'mg bid x 7d']
+    Component: ['Warfarin 10', 'mg qd x 7d']
+    Component: ['52 (20)', 'Φg/mL']
+    Component: ['2.1', '(35) hr']
+    Component: ['530 (27)', 'Φg*hr/', 'mL']
+    Component: ['4.75', '(35)', 'hr']
+    Component: ['0.04 (22)', 'mL/', 'min/k g']
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['001', '(USA)']
+Description: ['19B', 'Batch', '0034']
+  Parameter: ['Effect of', 'drug X on', 'warfarin']
+  Description: ['Randomi', 'zed,', 'Cross', 'over']
+    Component: ['(8M/4F)/', '(7M/4F)']
+    Component: ['HV (34,', '20-41)']
+    Component: ['Warfarin 10', 'mg qd x 7d']
+    Component: Placebo
+    Component: ['12 (25)', 'Φg/mL']
+    Component: ['1.5', '(30) hr']
+    Component: ['60 (37)', 'Φg*hr/', 'mL']
+    Component: ['40', '(35)', 'hr']
+    Component: ['0.04 (30)', 'mL/', 'min/k g']
+    Component: ['1.08', '0.92-', '1.24']
+    Component: ['1.07', '0.92-', '1.18']
+    Component: 
+  Requirements: ['HV (34,', '20-41)']
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: ['Warfarin 10', 'mg qd x 7d']
+    Component: ['Drug X 100', 'mg bid x 7d']
+    Component: ['13 (20)', 'Φg/mL']
+    Component: ['1.45', '(27) hr']
+    Component: ['64 (39)', 'Φg*hr/', 'mL']
+    Component: ['42', '(37)', 'hr']
+    Component: ['0.39 (34)', 'mL/', 'min/k g']
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 002 (UK)
+Description: ['19B2', 'Batch', '0035']
+  Parameter: ['Effect of', 'Cimetidine', 'on Drug X']
+  Description: ['Cross', 'over,', 'Single', 'sequence']
+    Component: ['(4M/8F)', '(4M/8F)']
+    Component: ['HV (30,', '19-45)']
+    Component: ['Drug X 50', 'mg', 'bid x 5d']
+    Component: Placebo
+    Component: ['49 (18)', 'Φ/mL']
+    Component: ['2.1', '(30) hr']
+    Component: ['470 (24)', 'Φg*hr/', 'mL']
+    Component: ['4.4', '(30)', 'hr']
+    Component: ['0.05 (20)', 'mL/', 'min/k g']
+    Component: ['1.22', '1.03-', '1.40']
+    Component: ['1.36', '1.11-', '1.53']
+    Component: 
+  Requirements: ['HV (30,', '19-45)']
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: ['Drug X 50', 'mg', 'bid x 5d']
+    Component: ['Cimetidine', '200 mg bid', 'x 5d']
+    Component: ['60 (10)', 'Φg/mL']
+    Component: ['2.2', '(30) hr']
+    Component: ['640 (24)', 'Φg*hr/', 'mL']
+    Component: ['5.2', '(30)', 'hr']
+    Component: ['0.03 (20)', 'mL/', 'min/k g']
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Study', 'ID']
+Description: ['Number', 'of Study', 'Centers', 'Location', '(s)']
+  Parameter: ['Study start', 'Enrollment', 'status, date', 'Total', 'enrollment', '/ Enrollment', 'goal']
+  Description: ['Design', 'Control type']
+    Component: ['Study & Ctrl', 'Drugs', 'Dose, Route', '& Regimen']
+    Component: ['Study', 'Objective']
+    Component: ['# subjs', 'by arm', 'Entere d/', 'compl.']
+    Component: Duration
+    Component: ['Gender', 'M/F', 'Median Age', '(Range)']
+    Component: ['Diagnosis', 'Inclusion', 'Criteria']
+    Component: Primary Endpoint(s)
+  Requirements: ['Study', 'Objective']
+----------------------------------------
+Section: PG- 2476
+Description: ['1', 'U. Antarctica']
+  Parameter: ['Aug-94', 'Completed', 'Apr 98', '50 / 50']
+  Description: ['Randomised,', 'double blind,', 'parallel', 'Placebo']
+    Component: ['TP: 30 mg', 'po bid', 'Pbo']
+    Component: ['Efficacy and', 'Safety']
+    Component: ['27/24', '23/21']
+    Component: 4 weeks
+    Component: ['27/23', '38 (20-64)']
+    Component: ['Mild hypertension', 'Diastolic 90-100', 'Systolic 150-170']
+    Component: ['Change from baseline', 'systolic and diastolic', 'pressure at 4 weeks.']
+  Requirements: ['Efficacy and', 'Safety']
+----------------------------------------
+Section: PG- 2666
+Description: ['4', 'Affiliated', 'Physicians of', 'Florida,', 'Smith &', 'Jones CRO']
+  Parameter: ['May-98', 'Ongoing as', 'of May', '2001', '126/400']
+  Description: ['Randomised,', 'open label,', 'parallel', 'Placebo', 'and Dose-', 'response']
+    Component: ['TP: 100 mg', 'po bid', 'TP: 50 mg', 'po bid', 'TP: 25 mg', 'po bid', 'Placebo']
+    Component: ['Efficacy and', 'Safety,', 'Long- term', 'efficacy and', 'safety']
+    Component: ['34/30', '30/28', '34/32', '28/26']
+    Component: ['4 weeks,', 'followed by', '12 weeks', 'open-label']
+    Component: ['66/60', '55 (24-68)']
+    Component: ['Mild hypertension', 'Systolic 150-170', 'Diastolic 90-100']
+    Component: ['Change from baseline', 'systolic and diastolic', 'pressure at 4 weeks', 'and at 12 weeks.']
+  Requirements: ['Efficacy and', 'Safety,', 'Long- term', 'efficacy and', 'safety']
+----------------------------------------
+Section: Study
+Description: Treatment Arm
+  Parameter: ['# Enrolled/', 'Completed']
+  Description: ['Mean systolic and diastolic', 'BP']
+    Component: None
+    Component: None
+    Component: ['Primary Endpoint', 'Placebo-subtracted', 'change in DBP at', '40 weeks']
+    Component: ['Statistical', 'test /', 'P value']
+    Component: ['Secondary', 'Endpoints', '% normalised**', '(ITT analysis)']
+    Component: ['Other', 'Comments']
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: Baseline
+    Component: 20 wks
+    Component: 40 wks
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: 40 wks
+----------------------------------------
+Section: ['PG-', '2678']
+Description: ['TP: 100 mg po bid', 'TP: 50 mg po bid', 'TP: 25 mg po bid', 'TP: 10 mg po bid', 'Placebo']
+  Parameter: ['34/30', '30/28', '34/32', '26/20', '28/26']
+  Description: ['162/96', '165/97', '167/96', '162/95', '166/97']
+    Component: ['140/85', '146/87', '148/88', '153/93', '160/92']
+    Component: ['138/84', '146/87', '148/88', '153/93', '159/91']
+    Component: ['6', '4', '2', '-4']
+    Component: 
+    Component: ['88', '78', '50', '20', '30']
+    Component: 
+  Requirements: ['138/84', '146/87', '148/88', '153/93', '159/91']
+----------------------------------------
+Section: ['Duration', '(Weeks)']
+Description: Mean Daily Dose (mg)
+  Parameter: None
+  Description: None
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: None
+Description: ['0 < Dose', '≤ 5mg']
+  Parameter: ['5 < Dose', '≤ 10mg']
+  Description: ['10 < Dose', '≤ 20mg']
+    Component: ['20 < Dose', '≤ 30mg']
+    Component: ['30 < Dose', '≤ 50mg']
+    Component: 50mg < Dose
+    Component: ['Total', '(Any Dose)']
+    Component: Percent
+  Requirements: ['30 < Dose', '≤ 50mg']
+----------------------------------------
+Section: 0 < Dur ≤ 1
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 1 < Dur ≤ 2
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 2 < Dur ≤ 4
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 4 < Dur ≤ 12
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 12 < Dur ≤ 24
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 24 < Dur ≤ 48
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 48 < Dur ≤ 96
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Dur >96
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Total', '(Any Duration)']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Percent
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: Treatment Groups
+  Parameter: None
+  Description: None
+  Requirements: N/A
+----------------------------------------
+Section: None
+Description: ['Test Product', 'N =']
+  Parameter: ['Placebo', 'N =']
+  Description: ['Active Control', 'N =']
+  Requirements: N/A
+----------------------------------------
+Section: ['Age (years)', 'Mean ± SD Range', 'Groups', '<18', '18 - 40', '40 - 64', '65 - 75', '>75']
+Description: ['50 ± 15', '20-85', 'N (%)', 'N (%)', 'N (%)', 'N (%)', 'N (%)']
+  Parameter: ['N (%)', 'N (%)', 'N (%)', 'N (%)', 'N (%)']
+  Description: ['N (%)', 'N (%)', 'N (%)', 'N (%)', 'N (%)']
+  Requirements: N/A
+----------------------------------------
+Section: ['Sex', 'Female', 'Male']
+Description: ['N (%)', 'N (%)']
+  Parameter: ['N (%)', 'N (%)']
+  Description: ['N (%)', 'N (%)']
+  Requirements: N/A
+----------------------------------------
+Section: ['Race', 'Asian', 'Black', 'Caucasian', 'Other']
+Description: ['N (%)', 'N (%)', 'N (%)', 'N (%)']
+  Parameter: ['N (%)', 'N (%)', 'N (%)', 'N (%)']
+  Description: ['N (%)', 'N (%)', 'N (%)', 'N (%)']
+  Requirements: N/A
+----------------------------------------
+Section: Other Factors
+Description: 
+  Parameter: 
+  Description: 
+  Requirements: N/A
+----------------------------------------
+Section: body System / Adverse Event
+Description: Test Drug
+  Parameter: None
+  Description: None
+    Component: Placebo
+    Component: ['Active', 'Control 1']
+    Component: Active Control 2
+    Component: None
+  Requirements: ['Active', 'Control 1']
+----------------------------------------
+Section: 
+Description: ['All doses', 'n = 1685']
+  Parameter: ['10 mg', 'n = 968']
+  Description: ['20 mg', 'n = 717']
+    Component: n = 425
+    Component: ['20 mg', 'n = 653']
+    Component: ['50 mg', 'n = 334']
+    Component: ['100 mg', 'n = 546']
+  Requirements: ['20 mg', 'n = 653']
+----------------------------------------
+Section: Body as a whole
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Dizziness
+Description: 19 (1%)
+  Parameter: 7 (1%)
+  Description: 12 (2%)
+    Component: 6 (1%)
+    Component: 23 (4%)
+    Component: 1 (<1%)
+    Component: 3 (1%)
+  Requirements: 23 (4%)
+----------------------------------------
+Section: Etc.
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Cardiovascular
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Postural Hypotension
+Description: 15 (1%)
+  Parameter: 10 (1%)
+  Description: 5 (1%)
+    Component: 2 (<1%)
+    Component: 7 (1%)
+    Component: 6 (2%)
+    Component: 12 (2%)
+  Requirements: 7 (1%)
+----------------------------------------
+Section: Etc.
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Gastrointestinal
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Constipation
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: Reported incidence by Treatment Groups
+  Parameter: None
+  Description: None
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+    Component: None
+  Requirements: None
+----------------------------------------
+Section: body System / Adverse Event
+Description: Study 95-0403
+  Parameter: None
+  Description: None
+    Component: Study 96-0011
+    Component: None
+    Component: Study 97-0007
+    Component: None
+    Component: Study 98-0102s
+  Requirements: None
+----------------------------------------
+Section: 
+Description: ['Drug x', '60 mg bid', 'N =104']
+  Parameter: ['Drug x', '30 mg bid', 'N =102']
+  Description: ['Placebo', 'N = 100']
+    Component: ['Drug x', '60 mg bid', 'N = 500']
+    Component: ['Placebo', 'N=495']
+    Component: ['Drug x', '60 mg bid', 'N=200']
+    Component: ['Drug y', '100 mg qd', 'N=200']
+    Component: ['Drug x', '60 mg bid', 'N=800']
+  Requirements: ['Placebo', 'N=495']
+----------------------------------------
+Section: Body as a whole
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Dizziness
+Description: N (%)
+  Parameter: N (%)
+  Description: N (%)
+    Component: N (%)
+    Component: N (%)
+    Component: N (%)
+    Component: N (%)
+    Component: N (%)
+  Requirements: N (%)
+----------------------------------------
+Section: Etc.
+Description: N (%)
+  Parameter: N (%)
+  Description: N (%)
+    Component: N (%)
+    Component: N (%)
+    Component: N (%)
+    Component: N (%)
+    Component: N (%)
+  Requirements: N (%)
+----------------------------------------
+Section: Cardiovascular
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Postural Hypotension
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Etc.
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Gastrointestinal
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Constipation
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Studies
+Description: None
+  Parameter: Total Withdrawal
+  Description: None
+    Component: None
+    Component: None
+    Component: Reason for Withdrawal
+    Component: None
+    Component: None
+    Component: ['Number', 'without post-', 'withdrawal', 'efficacy data']
+  Requirements: None
+----------------------------------------
+Section: 
+Description: 
+  Parameter: Total
+  Description: ['Male/', 'female']
+    Component: ['Age', '> 65']
+    Component: ['Race (identify', 'groupings) / / /']
+    Component: ['Adverse', 'Events', 'N (%)']
+    Component: ['Lack of', 'Efficacy', 'N (%)']
+    Component: ['Other', 'N (%)']
+    Component: N (%)
+  Requirements: ['Race (identify', 'groupings) / / /']
+----------------------------------------
+Section: Study
+Description: Drug X
+  Parameter: N (%)
+  Description: ['N (%) /', 'N (%)']
+    Component: N (%)
+    Component: ['N (%) / N (%) /', 'N (%)']
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: ['N (%) / N (%) /', 'N (%)']
+----------------------------------------
+Section: XXX
+Description: Placebo
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Study
+Description: Drug X
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: AAA
+Description: Comparator A
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Study
+Description: Drug X
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: BBB
+Description: Comparator B
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Study
+Description: Drug X
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: CCC
+Description: Comparator C
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: All Trials
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Trial /', 'Source1']
+Description: Center
+  Parameter: ['Patient', 'ID']
+  Description: ['Age', '(yrs)']
+    Component: Sex
+    Component: ['Dose', '(mg)']
+    Component: ['Duration', 'of', 'exposure', '(Days)']
+    Component: Diagnosis
+    Component: ['Cause', 'of', 'Death']
+    Component: ['Other', 'medications']
+    Component: ['Other', 'medical', 'conditions']
+    Component: ['Location of', 'narrative', 'description']
+  Requirements: ['Dose', '(mg)']
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: 
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: ['Type of', 'Study']
+Description: ['Study', 'Identifier']
+  Parameter: ['Location', 'of Study', 'Report']
+  Description: ['Objective(s)', 'of the Study']
+    Component: ['Study Design', 'and Type of', 'Control']
+    Component: ['Test Product(s);', 'Dosage', 'Regimen;', 'Route of', 'Administration']
+    Component: ['Number of', 'Subjects']
+    Component: ['Healthy', 'Subjects or', 'Diagnosis of', 'Patients']
+    Component: ['Duration of', 'Treatment']
+    Component: ['Study Status;', 'Type of Report']
+  Requirements: ['Test Product(s);', 'Dosage', 'Regimen;', 'Route of', 'Administration']
+----------------------------------------
+Section: BA
+Description: 001
+  Parameter: ['Vol 3, Sec.', '1.1, p. 183']
+  Description: ['Absolute BA', 'IV vs Tablet']
+    Component: Cross-over
+    Component: ['Tablet, 50mg', 'single dose, oral,', '10 mg IV']
+    Component: 20
+    Component: ['Healthy', 'Subjects']
+    Component: Single dose
+    Component: ['Complete;', 'Abbreviated']
+  Requirements: ['Tablet, 50mg', 'single dose, oral,', '10 mg IV']
+----------------------------------------
+Section: BE
+Description: 002
+  Parameter: ['Vol 4, Sec.', '1.2, p. 254']
+  Description: ['Compare', 'clinical study', 'and to-be-', 'marketed', 'formulation']
+    Component: Cross-over
+    Component: ['Two tablet', 'formulations, 50', 'mg, oral']
+    Component: 32
+    Component: ['Healthy', 'Subjects']
+    Component: Single dose
+    Component: ['Complete;', 'Abbreviated']
+  Requirements: ['Two tablet', 'formulations, 50', 'mg, oral']
+----------------------------------------
+Section: PK
+Description: 1010
+  Parameter: ['Vol 6, Sec.', '3.3, p. 29']
+  Description: Define PK
+    Component: Cross-over
+    Component: ['Tablet, 50mg', 'single dose, oral']
+    Component: 50
+    Component: ['Renal', 'Insufficiency']
+    Component: Single dose
+    Component: Complete; Full
+  Requirements: ['Tablet, 50mg', 'single dose, oral']
+----------------------------------------
+Section: PD
+Description: 020
+  Parameter: ['Vol 6, Sec.', '4.2, p. 147']
+  Description: ['Bridging', 'study', 'between', 'regions']
+    Component: ['Randomised', 'placebo-', 'controlled']
+    Component: ['Tablet, 50mg,', 'multiple dose,', 'oral, every 8 hrs']
+    Component: ['24 (12 drug,', '12 placebo)']
+    Component: ['Patients', 'with primary', 'hypertension']
+    Component: 2 weeks
+    Component: Ongoing; Interim
+  Requirements: ['Tablet, 50mg,', 'multiple dose,', 'oral, every 8 hrs']
+----------------------------------------
+Section: Efficacy
+Description: 035
+  Parameter: ['Vol 10, Sec.', '5.1, p. 1286']
+  Description: ['Long term;', 'Efficacy', '& Safety;', 'Population', 'PK analysis']
+    Component: ['Randomised', 'active-', 'controlled']
+    Component: ['Tablet, 50mg,', 'oral, every 8 hrs']
+    Component: ['300 (152', 'test drug,', '148 active', 'control)']
+    Component: ['Patients', 'with primary', 'hypertension']
+    Component: 48 weeks
+    Component: Complete; Full
+  Requirements: ['Tablet, 50mg,', 'oral, every 8 hrs']
+----------------------------------------
+Section: ['Type of', 'Study']
+Description: ['Study', 'Identifier']
+  Parameter: ['Location', 'of Study', 'Report']
+  Description: ['Objective(s) of', 'the Study']
+    Component: ['Study', 'Design and', 'Type of', 'Control']
+    Component: ['Test Product(s);', 'Dosage Regimen;', 'Route of', 'Administration']
+    Component: ['Number', 'of', 'Subjects']
+    Component: ['Healthy', 'Subjects or', 'Diagnosis', 'of Patients']
+    Component: ['Duration', 'of', 'Treatment']
+    Component: ['Study', 'Status;', 'Type of', 'Report']
+  Requirements: ['Test Product(s);', 'Dosage Regimen;', 'Route of', 'Administration']
+----------------------------------------
+Section: BA
+Description: 001
+  Parameter: ['Vol 3,', 'Sec. 1.1,', 'p. 183']
+  Description: ['Absolute BA IV', 'vs Tablet']
+    Component: Cross-over
+    Component: ['Tablet, 50mg single', 'dose, oral,', '10 mg IV']
+    Component: 20
+    Component: ['Healthy', 'Subjects']
+    Component: ['Single', 'dose']
+    Component: ['Complete;', 'Abbreviated']
+  Requirements: ['Tablet, 50mg single', 'dose, oral,', '10 mg IV']
+----------------------------------------
+Section: BE
+Description: 002
+  Parameter: ['Vol 4,', 'Sec. 1.2,', 'p. 254']
+  Description: ['Compare clinical', 'study and to-', 'be- marketed', 'formulation']
+    Component: Cross-over
+    Component: ['Two tablet', 'formulations, 50', 'mg, oral']
+    Component: 32
+    Component: ['Healthy', 'Subjects']
+    Component: ['Single', 'dose']
+    Component: ['Complete;', 'Abbreviated']
+  Requirements: ['Two tablet', 'formulations, 50', 'mg, oral']
+----------------------------------------
+Section: PK
+Description: 1010
+  Parameter: ['Vol 6,', 'Sec. 3.3,', 'p. 29']
+  Description: Define PK
+    Component: Cross-over
+    Component: ['Tablet, 50mg single', 'dose, oral']
+    Component: 50
+    Component: ['Renal', 'Insufficiency']
+    Component: ['Single', 'dose']
+    Component: ['Complete;', 'Full']
+  Requirements: ['Tablet, 50mg single', 'dose, oral']
+----------------------------------------
+Section: PD
+Description: 020
+  Parameter: ['Vol 6,', 'Sec. 4.2,', 'p. 147']
+  Description: ['Bridging study', 'between regions']
+    Component: ['Randomised', 'placebo-', 'controlled']
+    Component: ['Tablet, 50mg,', 'multiple dose, oral,', 'every 8 hrs']
+    Component: ['24 (12', 'drug, 12', 'placebo)']
+    Component: ['Patients with', 'primary', 'hypertension']
+    Component: 2 weeks
+    Component: ['Ongoing;', 'Interim']
+  Requirements: ['Tablet, 50mg,', 'multiple dose, oral,', 'every 8 hrs']
+----------------------------------------
+Section: Efficacy
+Description: 035
+  Parameter: ['Vol 10,', 'Sec. 5.1,', 'p. 1286']
+  Description: ['Long term;', 'Efficacy & Safety;', 'Population PK', 'analysis']
+    Component: ['Randomised', 'active-', 'controlled']
+    Component: ['Tablet, 50mg,', 'oral, every 8 hrs']
+    Component: ['300 (152', 'test drug,', '148', 'active', 'control)']
+    Component: ['Patients', 'with primary', 'hypertension']
+    Component: 48 weeks
+    Component: ['Complete;', 'Full']
+  Requirements: ['Tablet, 50mg,', 'oral, every 8 hrs']
+----------------------------------------
+Section: Part IV : Clinical Document
+Description: NCE
+  Parameter: bIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: GP
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: ST/P
+    Component: IND
+    Component: None
+    Component: None
+  Requirements: IND
+----------------------------------------
+Section: Section A. Table of Contents
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: -
+    Component: -
+  Requirements: 
+----------------------------------------
+Section: ['Section b. Clinical Overview', '1. Product Development Rationale', '2. Overview of Biopharmaceutics', '3. Overview of Clinical Pharmacology', '4. Overview of Efficacy', '5. Overview of Safety', '6. Benefits and Risks Conclusions']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: -
+    Component: -
+  Requirements: 
+----------------------------------------
+Section: ['Section C. Clinical Summary', '1. Summary of biopharmaceutic Studies and', 'Associated Analytical Method', '1.1 Background and Overview', '1.2 Summary of Results of Individual Studies', '1.3 Comparison and Analyses of Results Across', 'Studies', 'Appendix 1']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: -
+    Component: -
+  Requirements: 
+----------------------------------------
+Section: Part IV : Clinical Document
+Description: NCE
+  Parameter: bIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: GP
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: ST/P
+    Component: IND
+    Component: None
+    Component: None
+  Requirements: IND
+----------------------------------------
+Section: ['Section C. Clinical Summary (Cont.)', '2. Summary of Clinical Pharmacology Studies', '2.1 Background and Overview', '2.2 Summary of Results of Individual Studies', '2.3 Comparison and Analyses of Results Across', 'Studies', '2.4 Special Studies', 'Appendix 2', '3. Summary of Clinical Efficacy', '3.1 Background and Overview of Clinical', 'Efficacy', '3.2 Summary of Results of Individual Studies', '3.3 Comparison and Analyses of Results Across', 'Studies', '3.4 Analysis of Clinical Information Relevant to', 'Dosing Recommendations', '3.5 Persistence of Efficacy and/or Tolerance', 'Effects', 'Appendix 3']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Part IV : Clinical Document
+Description: NCE
+  Parameter: bIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: GP
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: ST/P
+    Component: IND
+    Component: None
+    Component: None
+  Requirements: IND
+----------------------------------------
+Section: ['Section C. Clinical Summary (Cont.)', '4. Summary of Clinical Safety', '4.1 Exposure to the Drug', '4.2 Adverse Events', '4.3 Clinical Laboratory Evaluations', '4.4 Vital Signs, Physical Findings, and Other', 'Observations Related to Safety', '4.5 Safety in Special Groups and Situations', '4.6 Post-marketing Data', 'Appendix 4', '5.Synopses of Individual Studies']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Section D. Tabular Listing of All Clinical Studies
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: -
+    Component: -
+  Requirements: 
+----------------------------------------
+Section: Part IV : Clinical Document
+Description: NCE
+  Parameter: bIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: GP
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: ST/P
+    Component: IND
+    Component: None
+    Component: None
+  Requirements: IND
+----------------------------------------
+Section: ['Section E. Clinical Study Reports (if applicable)', '1. Reports of biopharmaceutic Studies', '1.1 BA Study Reports', '1.2 Comparative BA or BE Study Reports', '1.3 In vitro-In vivo Correlation Study Reports', '1.4 Reports of Bioanalytical and Analytical', 'Methods for Human Studies', '2. Reports of Studies Pertinent to', 'Pharmacokinetics using Human biomaterials', '2.1 Plasma Protein Binding Study Reports', '2.2 Reports of Hepatic Metabolism and Drug', 'Interaction Studies', '2.3 Reports of Studies Using Other Human', 'Biomaterials']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: -
+    Component: -
+  Requirements: 
+----------------------------------------
+Section: Part IV : Clinical Document
+Description: NCE
+  Parameter: bIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: GP
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: ST/P
+    Component: IND
+    Component: None
+    Component: None
+  Requirements: IND
+----------------------------------------
+Section: ['Section E. Clinical Study Reports (if applicable)', '3. Reports of Human Pharmacokinetic (PK)', 'Studies', '3.1 Heatthy Subiect PK and Initial Tolerability', 'Study Reports', '3.2 Patient PK and Initial Tolerability Study', 'Reports', '3.3 Population PK Study Reports', '4. Reports of Human Pharmacodynamic (PD)', 'Studies', '4.1 Healthy Subject PD and PK/PD Study', 'Reports', '4.2 Patient PD and PK/PD Study Reports']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Part IV : Clinical Document
+Description: NCE
+  Parameter: bIOTECH
+  Description: MaV
+    Component: None
+    Component: None
+    Component: MiV
+    Component: GP
+  Requirements: None
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: RT
+    Component: ST/P
+    Component: IND
+    Component: None
+    Component: None
+  Requirements: IND
+----------------------------------------
+Section: ['Section E. Clinical Study Reports (if applicable)', '5. Reports of Efficacy and Safety Studies', '5.1 Study Reports of Controlled Clinical Studies', 'Pertinent to the Claimed Indication', '5.2 Study Reports of Uncontrolled Clinical', 'Studies', '5.3 Reports of Analyses of Data from More Than', 'One Study, Including Any Formal Integrated', 'Analyses, Meta-analyses, and Bridging', 'Analyses', '5.4 Other Clinical Study Reports', '6. Reports of Post-Marketing Experience', '7. Case Report forms and Individual Patient', 'Listing']
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: 
+    Component: 
+  Requirements: 
+----------------------------------------
+Section: Section f. List of Key Literature References
+Description: 
+  Parameter: 
+  Description: 
+    Component: 
+    Component: 
+    Component: -
+    Component: -
+  Requirements: 
+----------------------------------------
+Section: None
+Description: None
+  Parameter: ['ASEAN', 'ACTD', 'COMMON', 'TECHNICAL', 'DOSSIER', 'ties']
+  Description: None
+    Component: None
+  Requirements: N/A
+----------------------------------------
+Section: None
+Description: ['ASEAN: A Community of Opportunities', 'ASEAN', '@ASEAN', 'ASEAN', 'www.asean.org']
+  Parameter: ties
+  Description: 
+    Component: ['ASEAN', 'ACTD', 'COMMON', 'TECHNICAL', 'DOSSIER']
+  Requirements: N/A
+----------------------------------------
+Section: None
+Description: None
+  Parameter: None
+  Description: 
+    Component: ['one vision', 'one identity', 'one community']
+  Requirements: N/A
+----------------------------------------
+Section: B ACTD
+Description: B ACTD
+  Parameter: None
+  Description: None
+    Component: None
+  Requirements: N/A
+----------------------------------------
