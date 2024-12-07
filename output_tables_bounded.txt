@@ -1,0 +1,1213 @@
+No table detected on Page 1.
+No table detected on Page 2.
+No table detected on Page 3.
+No table detected on Page 4.
+No table detected on Page 5.
+No table detected on Page 6.
+No table detected on Page 7.
+No table detected on Page 8.
+No table detected on Page 9.
+No table detected on Page 10.
+Extracted Table from Page 11:
+10 
+No.
+PARAMETERS
+COMPONENTS
+REQUIREMENTS
+NCE
+BIOTECH
+MaV
+MiV
+S
+DRUG SUBSTANCE
+S1
+General Information
+1.1. Nomenclature
+− Information from the S1
+ 
+
+*
+1.2. Structure
+−  Structural formula, including relative and 
+absolute stereochemistry, the molecular 
+formula, and the relative molecular 
+mass.
+
+− Schematic 
+amino 
+acid 
+sequence 
+indicating glycosylation sites or other 
+post- translational modifications and 
+relative molecular mass as appropriate.
+
+1.3. General Properties
+− Physico chemical characteristics and 
+other 
+relevant 
+properties 
+including 
+biological activity for biotech.
+
+
+*
+
+--------------------------------------------------
+Extracted Table from Page 12:
+No.
+PARAMETERS
+COMPONENTS
+REQUIREMENTS
+NCE
+BIOTECH
+MaV
+MiV
+S2
+Manufacture
+2.1. Manufacturer(s)
+Name and address of the manufacturer (s).
+
+
+2.2. Description of 
+Manufacturing Process 
+and Process Controls
+− The description of the drug substance 
+manufacturing process and process 
+control that represents the applicant's 
+commitment for the manufacture of the 
+drug substances.
+
+
+− Information 
+on 
+the 
+manufacturing 
+process, which typically starts with a 
+vial(s) of the cell bank, and includes 
+cell culture, harvest(s), purification and 
+modification reaction, filling, storage and 
+shipping conditions.
+
+2.3. Control of Materials
+−  Starting materials, solvents, reagents, 
+catalysts, and any other materials used in 
+the manufacture of the drugs substance 
+indicating where each material is used 
+in the process. Tests and acceptance 
+criteria of these materials.
+
+
+−  Control of source and starting materials 
+of biological origin.
+
+−  Source, history and generation of the cell 
+substrate.
+
+− Cell banking system, characterisation 
+and testing.
+
+−  Viral safety evaluation.
+
+2.4. Controls of Critical Steps 
+and Intermediates
+−  Critical steps: Tests and acceptance 
+criteria, 
+with 
+justification 
+including 
+experimental data, performed at critical 
+steps of the manufacturing process to 
+ensure that the process is controlled.
+
+
+− Intermediates: 
+Specifications 
+and 
+analytical 
+procedure, 
+if 
+any, 
+for 
+intermediates 
+isolated 
+during 
+the 
+process.
+
+
+− Stability 
+data 
+supporting 
+storage 
+conditions.
+
+2.5. Process Validation and/
+or Evaluation
+Process 
+validation 
+and/or 
+evaluation 
+studies 
+for 
+aseptic 
+processing 
+and 
+sterilization.
+
+
+2.6. Manufacturing Process 
+Development
+− Description and discussion of significant 
+changes made to the manufacturing 
+process and/or manufacturing site of 
+the drug substance used in producing 
+non- clinical, clinical, scale-up, pilot and 
+if available, production scale batches.
+
+− The 
+development 
+history 
+of 
+the 
+manufacturing process as described in 
+S 2.2
+
+S3
+Characterisation
+3.1. Elucidation of Structure 
+and other characteristics
+−  Confirmation of structure based on e.g. 
+synthetic route and spectral analyses.
+
+−  Compendial requirements or appropriate 
+information from the manufacturer
+
+--------------------------------------------------
+Extracted Table from Page 13:
+No.
+PARAMETERS
+COMPONENTS
+REQUIREMENTS
+NCE
+BIOTECH
+MaV
+MiV
+− Details on primary, secondary and 
+higher- order structure  and information 
+on biological activity,  purity  and 
+immunochemical properties  (when 
+relevant).
+
+3.2. Impurities
+−  Summary  of  impurities  monitored  or 
+tested for during and after manufacture 
+of drug substance
+
+
+−  Compendial requirements or appropriate 
+information from the manufacturer
+S4
+Control of Drug Substance
+4.1. Specification
+−  Detailed 
+specification, 
+tests 
+and 
+acceptance criteria.
+
+
+−  Compendial specification  or appropriate 
+information from the manufacturer
+− Specify source, including as appropriate 
+species of animal, type of microorganism 
+etc.
+
+4.2. Analytical Procedures
+− The  analytical  procedures used  for 
+testing of drug substance.
+
+
+−  Compendial  methods or  appropriate 
+information from the manufacturer
+4.3. Validation of Analytical 
+Procedures
+−  Analytical  validation  information, 
+including experimental  data for the 
+analytical procedures used for testing 
+the drug substance
+
+
+−  Non-compendial methods
+4.4. Batch Analyses
+− Description of batches and results of the 
+analysis to establish the specification.
+
+
+4.5. Justification of 
+Specification
+− Justification  for  drug  substance 
+specification.
+
+
+S5
+Reference Standards or 
+Materials
+− Information on the reference standards 
+or reference materials used for testing of 
+the drug substance .
+
+
+− Compendial reference standard.
+*
+S6
+Container Closure System
+− Descriptions  of  the  container  closure 
+systems.
+
+
+S7
+Stability
+− Stability report.
+
+
+− Literature data .
+*
+P
+DRUG PRODUCT
+P1
+Description and Composition
+− Description
+
+
+*
+*
+− Dosage form and characteristics.
+− Accompanying reconstitution diluent (s) 
+if any.
+− Type of container and closure used 
+for the dosage form and reconstitution 
+diluent (s), if applicable.
+Composition
+
+
+*
+*
+Name, quantity stated in metric weight or 
+measures, function and quality standard 
+reference.
+
+--------------------------------------------------
+Extracted Table from Page 14:
+No.
+PARAMETERS
+COMPONENTS
+REQUIREMENTS
+NCE
+BIOTECH
+MaV
+MiV
+P2
+Pharmaceutical Development
+2.1 Information on 
+Development Studies
+−  Data on the development  studies 
+conducted to establish that the dosage 
+form, 
+formulation, 
+manufacturing 
+process, container closure system, 
+microbiological attributes and usage 
+instruction are appropriate for the 
+purpose specified in the application.
+
+
+2.2. Components of the Drug 
+Product
+− Active ingredient
+• Justification of the compatibility of the 
+active ingredient with excipients listed 
+in P1
+
+
+• In  case  of  combination products, 
+justification of the compatibility of 
+active ingredients with each other.
+− Literature data.
+*
+−  Excipients
+
+
+ Justification of the choice of excipients 
+listed in P1, which may influence the 
+drug product performance.
+2.3. Finished Product
+−  Formulation Development
+
+
+ A 
+brief 
+summary 
+describing 
+the 
+development of the finished product, 
+(taking into consideration the proposed 
+route of administration and usage for 
+NCE and Biotech).
+−  Overages
+
+
+ Justification of any overage in the 
+formulation(s) described in P1 .
+− Physicochemical 
+and 
+Biological 
+Properties Parameters relevant to the 
+performance of the finished product e.g 
+pH, dissolution.
+
+
+2.4.  Manufacturing Process 
+Development
+−  Selection  and  optimisation  of  the 
+manufacturing process
+
+
+−  Differences between the manufacturing 
+process  (es)  used  to  produce  pivotal 
+clinical 
+batches 
+and 
+the 
+process 
+described in P.3.2, if applicable
+
+
+2.5.  Container Closure 
+System
+Suitability of the container closure system 
+used for the storage, transportation 
+(shipping) and use of the finished product.
+
+
+2.6.  Microbiological Attributes
+Microbiological attributes of the dosage 
+form, where appropriate
+
+
+*
+2.7.  Compatibility
+Compatibility of the finished product with 
+reconstitution diluent(s) or dosage devices. 
+
+
+*
+Literature data
+
+--------------------------------------------------
+Extracted Table from Page 15:
+No.
+PARAMETERS
+COMPONENTS
+REQUIREMENTS
+NCE
+BIOTECH
+MaV
+MiV
+P3
+Manufacture
+3.1. Batch Formula
+Name and quantities of all ingredients
+
+
+*
+3.2. Manufacturing Process 
+and Process Control
+Description  of  manufacturing  process 
+and process control
+
+
+*
+*
+3.3. Control of Critical Steps 
+and Intermediates
+Tests and acceptance criteria
+
+
+3.4.  Process Validation and/
+or Evaluation
+Description, documentation, and results of 
+the validation and/or evaluation studies for 
+critical steps or critical assays used in the 
+manufacturing process.
+
+
+P4
+Control of excipients
+4.1. Specifications
+− Specifications for excipients
+
+
+ Compendial requirements or appropriate 
+information from the manufacturer
+*
+4.2.  Analytical Procedures
+−  Analytical procedures used for testing 
+excipients where appropriate.
+
+
+ Compendial requirements or appropriate 
+information from the manufacturer
+*
+*
+4.3.  Excipient of Human or 
+Animal Origin
+−  Information  regarding  sources  and  or 
+adventitious agents.
+
+
+ Compendial requirements or appropriate 
+information from the manufacturer
+*
+*
+4.4.  Novel Excipients
+− For excipient(s) used for the first 
+time in a finished product or by a new 
+route of administration, full details 
+of manufacture, charcterization and 
+controls, 
+with 
+cross 
+reference 
+to 
+supporting safety data (non- clinical or 
+clinical)
+
+
+P5
+Control of Finished Product
+5.1.  Specification
+−  The  specification(s)  for  the  finished 
+product.
+
+
+*
+*
+5.2.  Analytical Procedures
+−  Analytical procedures used for testing 
+the finished product
+
+
+*
+*
+5.3.  Validation of Analytical 
+Procedures
+− Information including experimental data, 
+for  the  analytical procedure used  for 
+testing the finished product
+
+
+ Non-compendial method
+
+
+*
+*
+ Verification 
+of 
+compendial 
+method 
+applicability - precision & accuracy
+*
+*
+5.4.  Batch Analyses
+− Description and test results of all 
+relevant batches.
+
+
+5.5. Characterisation of 
+Impurities
+−  Information on  the characterisation of 
+impurities
+
+
+ Compendial requirements or appropriate 
+information from the manufacturer
+*
+5.6. Justification of 
+Specification(s)
+−  Justification  of  the  proposed  finished 
+product specification(s).
+
+
+ Compendial requirements or appropriate 
+information from the manufacturer
+*
+
+--------------------------------------------------
+Extracted Table from Page 16:
+No.
+PARAMETERS
+COMPONENTS
+REQUIREMENTS
+NCE
+BIOTECH
+MaV
+MiV
+P6
+Reference Standards or 
+Materials
+−  Information on the reference standards 
+or reference materials used for testing of 
+the finished product.
+
+
+ Compendial requirements or appropriate 
+information from the manufacturer
+*
+P7
+Container Closure System
+− Specification and control of primary and 
+secondary packaging  material, type of 
+packaging and the package size, details 
+of packaging inclusion (e.g. desiccant, 
+etc)
+
+
+*
+*
+P8
+Stability
+ Stability report: data demonstrating that 
+product is stable through its proposed 
+shelf life.
+
+
+*
+ Commitment on post approval stability 
+monitoring
+P9
+Product Interchangeability 
+Equivalence evidence
+− In Vitro
+*
+ Comparative 
+dissolution 
+study 
+as 
+required
+− In Vivo
+*
+ Bioequivalence study as required
+emarks : * if required
+ NCE 
+: 
+New Chemical Entity
+ Biotech 
+: 
+Biotechnological Products
+ MaV 
+: 
+Major Variation
+ MiV 
+: 
+Minor Variation
+ G 
+: 
+Generics
+
+--------------------------------------------------
+No table detected on Page 17.
+No table detected on Page 18.
+No table detected on Page 19.
+No table detected on Page 20.
+No table detected on Page 21.
+No table detected on Page 22.
+No table detected on Page 23.
+No table detected on Page 24.
+No table detected on Page 25.
+No table detected on Page 26.
+No table detected on Page 27.
+No table detected on Page 28.
+No table detected on Page 29.
+No table detected on Page 30.
+No table detected on Page 31.
+No table detected on Page 32.
+No table detected on Page 33.
+No table detected on Page 34.
+No table detected on Page 35.
+No table detected on Page 36.
+No table detected on Page 37.
+No table detected on Page 38.
+No table detected on Page 39.
+No table detected on Page 40.
+No table detected on Page 41.
+No table detected on Page 42.
+No table detected on Page 43.
+No table detected on Page 44.
+No table detected on Page 45.
+No table detected on Page 46.
+No table detected on Page 47.
+No table detected on Page 48.
+No table detected on Page 49.
+No table detected on Page 50.
+No table detected on Page 51.
+No table detected on Page 52.
+No table detected on Page 53.
+No table detected on Page 54.
+No table detected on Page 55.
+No table detected on Page 56.
+No table detected on Page 57.
+No table detected on Page 58.
+No table detected on Page 59.
+No table detected on Page 60.
+No table detected on Page 61.
+No table detected on Page 62.
+No table detected on Page 63.
+No table detected on Page 64.
+Extracted Table from Page 65:
+Systems
+Species /
+Method of
+Dosesa
+No.
+
+--------------------------------------------------
+No table detected on Page 66.
+Extracted Table from Page 67:
+Study No.
+
+--------------------------------------------------
+No table detected on Page 68.
+Extracted Table from Page 69:
+Study No.
+
+--------------------------------------------------
+Extracted Table from Page 70:
+Study No.
+
+--------------------------------------------------
+Extracted Table from Page 71:
+Species
+Conc. Tested
+% Bound
+Study No.
+
+--------------------------------------------------
+Extracted Table from Page 72:
+Placental transfer
+Study No.
+Species:
+Gestation day/Number of animals: 
+Vehicle/Formulation:
+Method of Administration: 
+Dose (mg/kg)
+Analyte: 
+Assay: 
+Time (hr)
+Concentration /Amount (% of dose)
+Dam (3):
+Fetus (3):
+Additional Information:
+Excretion into milk 
+Study No. 
+Location in
+
+--------------------------------------------------
+No table detected on Page 73.
+No table detected on Page 74.
+Extracted Table from Page 75:
+Species
+Sample
+or Period
+in Sample 
+ Parent
+Study No.
+ M1
+M2
+
+--------------------------------------------------
+Extracted Table from Page 76:
+Study system:
+Study No.
+
+--------------------------------------------------
+No table detected on Page 77.
+Extracted Table from Page 78:
+Study No.
+
+--------------------------------------------------
+No table detected on Page 79.
+No table detected on Page 80.
+Extracted Table from Page 81:
+Study No.
+
+--------------------------------------------------
+Extracted Table from Page 82:
+Study No.
+
+--------------------------------------------------
+No table detected on Page 83.
+No table detected on Page 84.
+No table detected on Page 85.
+Extracted Table from Page 86:
+Batch No.
+
+--------------------------------------------------
+Extracted Table from Page 87:
+Species/ 
+(Vehicle/ 
+and No.
+
+--------------------------------------------------
+Extracted Table from Page 88:
+Species/
+(Vehicle/
+Duration
+Doses
+and No.
+
+--------------------------------------------------
+Extracted Table from Page 89:
+Initial Age: 
+Duration of Postdose: 
+Study No.
+
+--------------------------------------------------
+Extracted Table from Page 90:
+2.3.2.7 (1) Repeat-Dose Toxicity
+Study No.
+
+--------------------------------------------------
+No table detected on Page 91.
+Extracted Table from Page 92:
+Test for Induction of:
+No. of Independent Assays: 
+Study No.
+Strains:
+No. of Replicate Cultures:
+Location in
+Metabolizing System: 
+No. of Cells Analyzed/Culture
+
+--------------------------------------------------
+Extracted Table from Page 93:
+Test for Induction of: 
+Treatment Schedule:
+Study No.
+Species/Strain:
+Sampling Time:
+Location in
+Age: 
+Method of Administration:
+Cells Evaluated: 
+Vehicle/Formulation: 
+GLP Com
+No. of Cells Analyzed/Animal: 
+Date of Do
+Special Features:
+Toxic/Cytotoxic Effects:
+Genotoxic Effects:
+Evidence of Exposure:
+Dose
+No. of
+
+--------------------------------------------------
+Extracted Table from Page 94:
+Species/Strain: 
+Duration of Dosing: 
+Study No.
+
+--------------------------------------------------
+Extracted Table from Page 95:
+2.3.2.10 (1) Carcinogenicity
+Study No.
+
+--------------------------------------------------
+No table detected on Page 96.
+Extracted Table from Page 97:
+Species/ Strain
+(Vehicle/ Formulation)
+Period
+Doses mg/kg
+ No.
+
+--------------------------------------------------
+Extracted Table from Page 98:
+( )
+Study Design : 
+Duration of Dosing: M:
+Study No.
+Species/Strain: Day of Mating: (8)F:
+Location in CTD: Vol. Page
+Initial Age: 
+Day of C-Section:
+Date of First Dose:
+Method of Administration: 
+GLP Com
+Special Features:
+Vehicle/Formulation:
+No Observed Adverse Effect Level:
+F0  Males:
+F0 Females: 
+F1 Litters:
+Daily Dose (mg/kg) 
+0 (Control)
+Males 
+ 
+Toxicokinetics: AUC ( ) (4)
+No. Evaluated
+No. Died or Sacrificed Moribund
+Clinical Observations 
+Necropsy Observations 
+Body Weight (%a)
+Food Consumption (%a)
+Mean No. Days Prior to Mating
+No. of Males that Mated
+No. of Fertiles Males 
+(5)
+
+--------------------------------------------------
+Extracted Table from Page 99:
+2.3.2.12 (1) Reproductive and Developmental Toxicity 
+Study No.
+Daily Dose (mg/kg)
+0 (Control)
+Females
+Toxicokinetics: AUC ( ) (4)
+No. Evaluated
+No. Died or Sacrificed Moribund
+Clinical Observations 
+Necropsy Observations 
+Premating Body Weight (%a) 
+Gestation Body Weight (%a)
+Premating Food Consumption (%a) 
+Gestation Food Consumption (%a)
+Mean No. Estrous Cycles/14 days
+Mean No. Days Prior to Mating 
+No. of Females Sperm Positive 
+No. of Pregnant Females
+No. Aborted or with Total Resorption of Litter
+Mean No. Corpora Lutea
+Mean No. Implantations
+Mean % Preimplantation Loss 
+Mean No. Live Conceptuses 
+Mean No. Resorptions
+No. Dead Conceptuses
+
+--------------------------------------------------
+No table detected on Page 100.
+Extracted Table from Page 101:
+f
+y
+( )
+Study Design: 
+Duration of Dosing:
+Study No.
+Day of Mating: (8)
+Species / Strain: 
+Day of C-Section:
+Location in
+Initial Age: 
+Method of Administration:
+Date of First Dose: 
+Vehicle/ Formulation:
+GLP Com
+Special Features:
+No Observed Adverse Effect Level: 
+Fo Females:
+F1 Litters:
+Daily Dose (mg/kg) 
+0 (Control)
+Dams / Does:
+Toxicokinetics: AUC ( ) (4)
+No. Pregnant
+No. Died or Sacrificed Moribund
+(5) 
+No. Aborted or with Total Resorption of Litter
+Clinical Observations 
+Necropsy Observations 
+Body Weight (%a)
+Food Consumption (%a)
+Mean No. Corpora Lutea
+Mean No. Implantations
+
+--------------------------------------------------
+Extracted Table from Page 102:
+TD 
+2.3.2.13 (1) Reproductive and Developmental Toxicity 
+Study No.
+Daily Dose (mg/kg) 
+0 (Control)
+Litters: No. Litters Evaluated
+No. Live Fetuses
+Mean No. Resorptions
+No. of Litters with Dead Fetuses
+
+--------------------------------------------------
+Extracted Table from Page 103:
+( )
+Study Design:
+Duration of Dosing:
+Study No.
+Day of Mating:  (8)
+Species / Strain: 
+Method of Administration:
+Location in
+Initial Age
+Vehicle/Formulation:
+Date of First Dose: 
+Litters Culled/Not Culled:
+GLP Com
+Special Features:
+No Observed Adverse Effect Level:
+F0 Females:
+F1 Males:
+F1 Females:
+Daily Dose (mg/kg)
+0 (Control)
+Fo Females: Toxicokinetics: AUC ( ) (4) 
+No. Pregnant
+No. Died or Sacrified Moribund
+No. Aborted or with Total Res. of Litter
+
+--------------------------------------------------
+Extracted Table from Page 104:
+D 
+23.2.14 (1) Reproductive and Developmental Toxicity 
+Study No.
+Daily Dose (mg/kg)
+0 (Control)
+F1 Litters:
+No. Litters Evaluated
+(Preweaning)
+Mean No. of Implantations
+Mean No. Pups/Litter
+Mean No. Liveborn Pups/Litter 
+No. of Litters with Stillborn Pups 
+Postnatal Survival to Day 4
+Postnatal Survival to Weaning
+No. of Total Litter Losses
+Change in Pup Body Weightsa (g) 
+Pup Sex Ratios
+Pup Clinical Signs
+Pup Necropsy Observations
+F1 Males:
+No. Evaluated Postweaning Per Litter
+(Postweaning)
+No, Died or Sacrificed Moribund
+Clinical Observations 
+Necropsy Observations 
+Body Weight Changeb (g) 
+Food Consumption (%c) 
+Preputial Separation 
+Sensory Function
+Motor Activity
+Learning and Memory
+Mean No. days Prior to Mating
+No. of Males that Mated
+No. of Fertile Malesi
+
+--------------------------------------------------
+Extracted Table from Page 105:
+2.3.2.14 (1) Reproductive and Developmental Toxicicty  
+ 
+ 
+ 
+Study No.
+Daily dose (mg/kg) 
+0 (Control)
+F1 Females:
+No. evaluated Post eaning
+(Postweaning)
+No. Died or Sacrificed Moribund
+Clinical Observations
+Necropsy Observations
+Premating Body Weigth Changea (g) 
+Gestation Body Weight Change (g)
+Premating Food Consumption (%b) 
+Gestation Food Consumption (%b)
+Mean Age of Vaginal Patency (days) 
+Sensory Function
+Motor Activity
+Learning and Memory
+Mean No. Days Prior to Mating 
+No. Females Sperm-Positive 
+No. of Pregnant Females
+Mean No. Corpora Lutea
+Mean No. Implantations
+Mean % Preimplantation Loss
+F2 Litters:
+Mean No. Live Conceptuses/Litter
+Mean No. Resorptions
+No. of Litter with Dead Conceptuses
+No. Dead Conceptuses
+M
+% P
+i
+l
+i
+L
+
+--------------------------------------------------
+Extracted Table from Page 106:
+D 
+2.3.2.14 (1) Reproductive and Developmental Toxicicty  
+ 
+ 
+ 
+Study No.
+Daily dose (mg/kg)
+0 (Control)
+F1 Females:
+No. evaluated Post eaning
+(Postweaning)
+No. Died or Sacrificed Moribund
+Clinical Observations
+Necropsy Observations
+Premating Body Weigth Changea (g) 
+Gestation Body Weight Change (g) 
+Premating Food Consumption (%b) 
+Gestation Food Consumption (%ab) 
+Mean Age of Vaginal Patency (days) 
+Sensory Function
+Note: Alternate 
+Format for 
+Natural 
+Parturition
+Motor Activity
+Learning and Memory
+Mean No. Days Prior to Mating 
+No. of Females Sperm-Positive 
+No. of Pregnant Females
+Mean Duration of Gestation
+Abnormal Parturition
+F2 Litters:
+No. Litters Evaluated
+Mean No. of Implantations
+Mean No. Pups/Litter
+Mean No. Liveborn Pups/Litter 
+Mean No. Stillborn Pups/Litter 
+P
+l S
+i
+l
+D
+4
+
+--------------------------------------------------
+Extracted Table from Page 107:
+Strain
+Administration
+(mg/kg)
+No.
+
+--------------------------------------------------
+Extracted Table from Page 108:
+Strain
+Administration
+of Dosing
+(mg/kg)
+No.
+
+--------------------------------------------------
+No table detected on Page 109.
+No table detected on Page 110.
+No table detected on Page 111.
+No table detected on Page 112.
+No table detected on Page 113.
+No table detected on Page 114.
+No table detected on Page 115.
+No table detected on Page 116.
+No table detected on Page 117.
+No table detected on Page 118.
+No table detected on Page 119.
+No table detected on Page 120.
+No table detected on Page 121.
+No table detected on Page 122.
+No table detected on Page 123.
+No table detected on Page 124.
+No table detected on Page 125.
+No table detected on Page 126.
+No table detected on Page 127.
+No table detected on Page 128.
+No table detected on Page 129.
+No table detected on Page 130.
+No table detected on Page 131.
+No table detected on Page 132.
+No table detected on Page 133.
+No table detected on Page 134.
+No table detected on Page 135.
+No table detected on Page 136.
+No table detected on Page 137.
+No table detected on Page 138.
+No table detected on Page 139.
+No table detected on Page 140.
+No table detected on Page 141.
+No table detected on Page 142.
+No table detected on Page 143.
+No table detected on Page 144.
+No table detected on Page 145.
+No table detected on Page 146.
+No table detected on Page 147.
+No table detected on Page 148.
+No table detected on Page 149.
+No table detected on Page 150.
+No table detected on Page 151.
+No table detected on Page 152.
+No table detected on Page 153.
+No table detected on Page 154.
+No table detected on Page 155.
+No table detected on Page 156.
+No table detected on Page 157.
+No table detected on Page 158.
+Extracted Table from Page 159:
+Ref. No.
+
+--------------------------------------------------
+Extracted Table from Page 160:
+ACT
+Study 
+Ref. 
+No.
+Product
+ID/Batch No.
+Dosage Form
+Conditions
+No.
+Dos
+Unit
+
+--------------------------------------------------
+No table detected on Page 161.
+No table detected on Page 162.
+No table detected on Page 163.
+No table detected on Page 164.
+No table detected on Page 165.
+No table detected on Page 166.
+No table detected on Page 167.
+No table detected on Page 168.
+No table detected on Page 169.
+No table detected on Page 170.
+No table detected on Page 171.
+No table detected on Page 172.
+No table detected on Page 173.
+No table detected on Page 174.
+No table detected on Page 175.
+No table detected on Page 176.
+No table detected on Page 177.
+No table detected on Page 178.
+No table detected on Page 179.
+No table detected on Page 180.
+No table detected on Page 181.
+No table detected on Page 182.
+No table detected on Page 183.
+No table detected on Page 184.
+No table detected on Page 185.
+No table detected on Page 186.
+No table detected on Page 187.
+No table detected on Page 188.
+No table detected on Page 189.
+No table detected on Page 190.
+No table detected on Page 191.
+No table detected on Page 192.
+No table detected on Page 193.
+No table detected on Page 194.
