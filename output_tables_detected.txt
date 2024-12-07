@@ -1,0 +1,303 @@
+Extracted Table from Page 11:
+Scope of The Guideline
+This document is intended to provide guidance on the format of a registration
+application for drug products regarding ASEAN CTR. This format is
+appropriate for NCE (New Chemical Entity), Biotech (Biotechnological
+Products), MaV (Major Variations), MiV (Minor Variations) and G (Generics).
+To determine the applicability of this format for a particular type of product,
+applicant should consult with the appropriate National Regulatory
+Authorities. The “Body of Data” in this guideline merely indicates where
+the information should be located. Neither the type nor extent of specific
+supporting data has been addressed in this guideline and both may depend
+upon national guidance and or accepted leading international references
+(pharmacopoeias).
+For NCE and Biotech requirements please refer to the relevant ICH
+Guidelines.
+Section A: Table of Contents
+A table of contents for the filed application should be provided.
+Section b: Quality Overall Summary (QOS)
+REQUIREMENTS
+No. PARAMETERS COMPONENTS
+NCE BIOTECH MaV MiV G
+S DRUG SUBSTANCE
+S1 General Information
+1.1. Nomenclature − Information from the S1   * 
+1.2. Structure − Structural formula, including relative and  
+absolute stereochemistry, the molecular
+formula, and the relative molecular
+mass.
+− Schematic amino acid sequence 
+indicating glycosylation sites or other
+post- translational modifications and
+relative molecular mass as appropriate.
+1.3. General Properties − Physico chemical characteristics and   * 
+other relevant properties including
+biological activity for biotech.
+10 ACTD
+
+--------------------------------------------------
+Extracted Table from Page 12:
+REQUIREMENTS
+No. PARAMETERS COMPONENTS
+NCE BIOTECH MaV MiV G
+S2 Manufacture
+2.1. Manufacturer(s) Name and address of the manufacturer (s).   
+2.2. Description of − The description of the drug substance  
+Manufacturing Process manufacturing process and process
+and Process Controls control that represents the applicant's
+commitment for the manufacture of the
+drug substances.
+− Information on the manufacturing 
+process, which typically starts with a
+vial(s) of the cell bank, and includes
+cell culture, harvest(s), purification and
+modification reaction, filling, storage and
+shipping conditions.
+2.3. Control of Materials − Starting materials, solvents, reagents,  
+catalysts, and any other materials used in
+the manufacture of the drugs substance
+indicating where each material is used
+in the process. Tests and acceptance
+criteria of these materials.
+− Control of source and starting materials 
+of biological origin.
+− Source, history and generation of the cell 
+substrate.
+− Cell banking system, characterisation 
+and testing.
+− Viral safety evaluation. 
+2.4. Controls of Critical Steps − Critical steps: Tests and acceptance  
+and Intermediates criteria, with justification including
+experimental data, performed at critical
+steps of the manufacturing process to
+ensure that the process is controlled.
+− Intermediates: Specifications and  
+analytical procedure, if any, for
+intermediates isolated during the
+process.
+− Stability data supporting storage 
+conditions.
+2.5. Process Validation and/ Process validation and/or evaluation  
+or Evaluation studies for aseptic processing and
+sterilization.
+2.6. Manufacturing Process − Description and discussion of significant 
+Development changes made to the manufacturing
+process and/or manufacturing site of
+the drug substance used in producing
+non- clinical, clinical, scale-up, pilot and
+if available, production scale batches.
+− The development history of the 
+manufacturing process as described in
+S 2.2
+S3 Characterisation
+3.1. Elucidation of Structure − Confirmation of structure based on e.g. 
+and other characteristics synthetic route and spectral analyses.
+− Compendial requirements or appropriate 
+information from the manufacturer
+ACTD 11
+
+--------------------------------------------------
+Extracted Table from Page 13:
+REQUIREMENTS
+No. PARAMETERS COMPONENTS
+NCE BIOTECH MaV MiV G
+− Details on primary, secondary and 
+higher- order structure and information
+on biological activity, purity and
+immunochemical properties (when
+relevant).
+3.2. Impurities − Summary of impurities monitored or  
+tested for during and after manufacture
+of drug substance
+− Compendial requirements or appropriate 
+information from the manufacturer
+S4 Control of Drug Substance
+4.1. Specification − Detailed specification, tests and  
+acceptance criteria.
+− Compendial specification or appropriate 
+information from the manufacturer
+− Specify source, including as appropriate 
+species of animal, type of microorganism
+etc.
+4.2. Analytical Procedures − The analytical procedures used for  
+testing of drug substance.
+− Compendial methods or appropriate 
+information from the manufacturer
+4.3. Validation of Analytical − Analytical validation information,  
+Procedures including experimental data for the
+analytical procedures used for testing
+the drug substance
+− Non-compendial methods 
+4.4. Batch Analyses − Description of batches and results of the  
+analysis to establish the specification.
+4.5. Justification of − Justification for drug substance  
+Specification specification.
+S5 Reference Standards or − Information on the reference standards  
+Materials or reference materials used for testing of
+the drug substance .
+− Compendial reference standard. * 
+S6 Container Closure System − Descriptions of the container closure  
+systems.
+S7 Stability − Stability report.  
+− Literature data . * 
+P DRUG PRODUCT
+P1 Description and Composition − Description   * * 
+− Dosage form and characteristics.
+− Accompanying reconstitution diluent (s)
+if any.
+− Type of container and closure used
+for the dosage form and reconstitution
+diluent (s), if applicable.
+Composition   * * 
+Name, quantity stated in metric weight or
+measures, function and quality standard
+reference.
+12 ACTD
+
+--------------------------------------------------
+Extracted Table from Page 14:
+REQUIREMENTS
+No. PARAMETERS COMPONENTS
+NCE BIOTECH MaV MiV G
+P2 Pharmaceutical Development
+2.1 Information on − Data on the development studies  
+Development Studies conducted to establish that the dosage
+form, formulation, manufacturing
+process, container closure system,
+microbiological attributes and usage
+instruction are appropriate for the
+purpose specified in the application.
+2.2. Components of the Drug − Active ingredient
+Product
+• Justification of the compatibility of the  
+active ingredient with excipients listed
+in P1
+• In case of combination products,
+justification of the compatibility of
+active ingredients with each other.
+− Literature data. * 
+− Excipients  
+Justification of the choice of excipients
+listed in P1, which may influence the
+drug product performance.
+2.3. Finished Product − Formulation Development   
+A brief summary describing the
+development of the finished product,
+(taking into consideration the proposed
+route of administration and usage for
+NCE and Biotech).
+− Overages   
+Justification of any overage in the
+formulation(s) described in P1 .
+− Physicochemical and Biological   
+Properties Parameters relevant to the
+performance of the finished product e.g
+pH, dissolution.
+2.4. Manufacturing Process − Selection and optimisation of the  
+Development manufacturing process
+− Differences between the manufacturing  
+process (es) used to produce pivotal
+clinical batches and the process
+described in P.3.2, if applicable
+2.5. Container Closure Suitability of the container closure system   
+System used for the storage, transportation
+(shipping) and use of the finished product.
+2.6. Microbiological Attributes Microbiological attributes of the dosage   * 
+form, where appropriate
+2.7. Compatibility Compatibility of the finished product with   *
+reconstitution diluent(s) or dosage devices.
+Literature data 
+ACTD 13
+
+--------------------------------------------------
+Extracted Table from Page 15:
+REQUIREMENTS
+No. PARAMETERS COMPONENTS
+NCE BIOTECH MaV MiV G
+P3 Manufacture
+3.1. Batch Formula Name and quantities of all ingredients   * 
+3.2. Manufacturing Process Description of manufacturing process   * * 
+and Process Control and process control
+3.3. Control of Critical Steps Tests and acceptance criteria   
+and Intermediates
+3.4. Process Validation and/ Description, documentation, and results of   
+or Evaluation the validation and/or evaluation studies for
+critical steps or critical assays used in the
+manufacturing process.
+P4 Control of excipients
+4.1. Specifications − Specifications for excipients  
+Compendial requirements or appropriate * 
+information from the manufacturer
+4.2. Analytical Procedures − Analytical procedures used for testing  
+excipients where appropriate.
+Compendial requirements or appropriate * * 
+information from the manufacturer
+4.3. Excipient of Human or − Information regarding sources and or  
+Animal Origin adventitious agents.
+Compendial requirements or appropriate * * 
+information from the manufacturer
+4.4. Novel Excipients − For excipient(s) used for the first  
+time in a finished product or by a new
+route of administration, full details
+of manufacture, charcterization and
+controls, with cross reference to
+supporting safety data (non- clinical or
+clinical)
+P5 Control of Finished Product
+5.1. Specification − The specification(s) for the finished   * * 
+product.
+5.2. Analytical Procedures − Analytical procedures used for testing   * * 
+the finished product
+5.3. Validation of Analytical − Information including experimental data,  
+Procedures for the analytical procedure used for
+testing the finished product
+Non-compendial method   * * 
+Verification of compendial method * * 
+applicability - precision & accuracy
+5.4. Batch Analyses − Description and test results of all  
+relevant batches.
+5.5. Characterisation of − Information on the characterisation of  
+Impurities impurities
+Compendial requirements or appropriate * 
+information from the manufacturer
+5.6. Justification of − Justification of the proposed finished  
+Specification(s) product specification(s).
+Compendial requirements or appropriate * 
+information from the manufacturer
+14 ACTD
+
+--------------------------------------------------
+Extracted Table from Page 16:
+REQUIREMENTS
+No. PARAMETERS COMPONENTS
+NCE BIOTECH MaV MiV G
+P6 Reference Standards or − Information on the reference standards  
+Materials or reference materials used for testing of
+the finished product.
+Compendial requirements or appropriate * 
+information from the manufacturer
+P7 Container Closure System − Specification and control of primary and   * * 
+secondary packaging material, type of
+packaging and the package size, details
+of packaging inclusion (e.g. desiccant,
+etc)
+P8 Stability Stability report: data demonstrating that   * 
+product is stable through its proposed
+shelf life.
+Commitment on post approval stability
+monitoring
+P9 Product Interchangeability
+Equivalence evidence − In Vitro * 
+Comparative dissolution study as
+required
+− In Vivo * 
+Bioequivalence study as required
+remarks : * if required
+NCE : New Chemical Entity
+Biotech : Biotechnological Products
+MaV : Major Variation
+MiV : Minor Variation
+G : Generics
+ACTD 15
+
+--------------------------------------------------
